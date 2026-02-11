@@ -570,6 +570,211 @@
   </div>
 </section>
 
+<!-- Travel Section -->
+<section id="travel" class="py-20 bg-base-100">
+  <div class="container mx-auto px-4">
+    <h2 class="text-4xl md:text-5xl font-bold text-center mb-4 text-baltic-blue">
+      How to Get There
+    </h2>
+    <p class="text-center text-lg mb-12 text-gray-600">
+      Your journey to paradise - Getting to Alunan Resort, Perhentian Islands
+    </p>
+
+    <div class="max-w-6xl mx-auto space-y-8">
+
+      <!-- Overview Card -->
+      <div class="card bg-gradient-to-br from-tropical-teal/10 to-mint-leaf/10 shadow-xl">
+        <div class="card-body">
+          <p class="text-lg leading-relaxed text-center">
+            Alunan Resort is located on the beautiful Perhentian Islands, accessible via boat from Kuala Besut Jetty on the mainland.
+            Plan your journey carefully to ensure smooth transfers and maximum enjoyment of your swim camp experience.
+          </p>
+        </div>
+      </div>
+
+      <!-- Step-by-Step Guide -->
+      <div class="space-y-6">
+
+        <!-- Step 1: Fly to Malaysia -->
+        <div class="card bg-base-200 shadow-xl">
+          <div class="card-body">
+            <div class="flex items-start gap-4">
+              <div class="badge badge-lg bg-baltic-blue text-white border-none font-bold text-xl min-w-[50px] h-[50px] flex items-center justify-center">1</div>
+              <div class="flex-1">
+                <h3 class="card-title text-2xl mb-3 text-baltic-blue">✈️ Fly to Kuala Lumpur (KUL)</h3>
+                <p class="text-base mb-3">
+                  Most international travelers arrive at Kuala Lumpur International Airport (KLIA).
+                  From major Australian cities, direct flights are available with Malaysia Airlines, AirAsia, and other carriers.
+                </p>
+                <div class="bg-base-100 p-4 rounded-lg">
+                  <p class="font-semibold mb-2">Flight Options from Melbourne:</p>
+                  <ul class="space-y-2 text-sm">
+                    <li>🇲🇾 <strong>Malaysia Airlines</strong> - Direct flights departing 11:30 PM, arriving KL ~6:00 AM (overnight)</li>
+                    <li>🇸🇬 <strong>Singapore Airlines</strong> - Via Singapore (option to break journey in Singapore)</li>
+                    <li>💡 Day flights are also available from Melbourne to KL</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 2: Domestic Flight -->
+        <div class="card bg-base-200 shadow-xl">
+          <div class="card-body">
+            <div class="flex items-start gap-4">
+              <div class="badge badge-lg bg-tropical-teal text-white border-none font-bold text-xl min-w-[50px] h-[50px] flex items-center justify-center">2</div>
+              <div class="flex-1">
+                <h3 class="card-title text-2xl mb-3 text-tropical-teal">🛫 Connect to Kota Bharu (KBR)</h3>
+                <p class="text-base mb-3">
+                  From Kuala Lumpur, take a domestic flight to Sultan Ismail Petra Airport (Kota Bharu).
+                  This is the closest airport to the Perhentian Islands, approximately 45 minutes drive from Kuala Besut Jetty.
+                </p>
+                <div class="bg-base-100 p-4 rounded-lg">
+                  <ul class="space-y-2 text-sm">
+                    <li>⏱️ <strong>Flight Duration:</strong> ~1 hour from KL to Kota Bharu</li>
+                    <li>🕒 <strong>Recommended Connection:</strong> Allow 2+ hours layover in KL</li>
+                    <li>📍 <strong>Example:</strong> KL departure 8:00 AM → Kota Bharu arrival 9:30 AM</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 3: Transfer to Jetty -->
+        <div class="card bg-base-200 shadow-xl">
+          <div class="card-body">
+            <div class="flex items-start gap-4">
+              <div class="badge badge-lg bg-mint-leaf text-white border-none font-bold text-xl min-w-[50px] h-[50px] flex items-center justify-center">3</div>
+              <div class="flex-1">
+                <h3 class="card-title text-2xl mb-3 text-mint-leaf">🚗 Transfer to Kuala Besut Jetty</h3>
+                <p class="text-base mb-3">
+                  From Kota Bharu Airport, travel to Kuala Besut Jetty (approximately 45 minutes - 1 hour drive).
+                </p>
+                <div class="bg-base-100 p-4 rounded-lg">
+                  <p class="font-semibold mb-2">Transport Options:</p>
+                  <ul class="space-y-2 text-sm">
+                    <li>🚖 <strong>Taxi/Grab:</strong> Most convenient, book at airport or pre-arrange</li>
+                    <li>🚐 <strong>Private Transfer:</strong> Can be arranged through Alunan Resort</li>
+                    <li>🚌 <strong>Bus:</strong> Budget option available but less convenient with luggage</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 4: Boat to Island -->
+        <div class="card bg-base-200 shadow-xl">
+          <div class="card-body">
+            <div class="flex items-start gap-4">
+              <div class="badge badge-lg bg-[#E91E8C] text-white border-none font-bold text-xl min-w-[50px] h-[50px] flex items-center justify-center">4</div>
+              <div class="flex-1">
+                <h3 class="card-title text-2xl mb-3" style="color: #E91E8C;">⛵ Boat to Perhentian Islands</h3>
+                <p class="text-base mb-3">
+                  Scheduled boat transfers operate daily from Kuala Besut Jetty to the Perhentian Islands.
+                  <strong>Alunan Resort includes boat transfers in your package!</strong>
+                </p>
+                <div class="bg-base-100 p-4 rounded-lg">
+                  <ul class="space-y-2 text-sm">
+                    <li>⛴️ <strong>Boat Schedule:</strong> Departures from 8:00 AM - 4:30 PM</li>
+                    <li>🏝️ <strong>Journey Time:</strong> ~30-45 minutes</li>
+                    <li>🔙 <strong>Return Boats:</strong> 8:00 AM, 12:00 PM, 4:00 PM from the island</li>
+                    <li>✅ <strong>Included:</strong> Scheduled transfers included in your swim camp package</li>
+                    <li>⚠️ <strong>Note:</strong> Weather dependent - monsoon season (Nov-Feb) may affect schedules</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Recommended Timing -->
+      <div class="card bg-gradient-to-r from-baltic-blue to-tropical-teal text-white shadow-xl">
+        <div class="card-body">
+          <h3 class="card-title text-2xl md:text-3xl justify-center mb-6">📅 Recommended Travel Times</h3>
+          <div class="grid md:grid-cols-2 gap-8">
+            <div>
+              <h4 class="font-bold text-xl mb-4 flex items-center gap-2">
+                <span>🛬</span> Arrival
+              </h4>
+              <ul class="space-y-3 text-base">
+                <li><strong>Recommended Arrival:</strong> Monday, October 28, 2026</li>
+                <li><strong>Latest Arrival:</strong> Before 3:00 PM on Oct 28 to catch afternoon boat</li>
+                <li><strong>Ideal Flight:</strong> Arrive Kota Bharu by 12:00 PM to allow time for transfers</li>
+                <li><strong>Tip:</strong> Arriving a day earlier (Oct 27) gives you buffer time and helps with jet lag</li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="font-bold text-xl mb-4 flex items-center gap-2">
+                <span>🛫</span> Departure
+              </h4>
+              <ul class="space-y-3 text-base">
+                <li><strong>Departure Day:</strong> Monday, October 5, 2026 (after lunch)</li>
+                <li><strong>Morning Boat:</strong> 8:00 AM or 12:00 PM from island</li>
+                <li><strong>Earliest Flight:</strong> Don't book flights before 3:00 PM from Kota Bharu</li>
+                <li><strong>Weather Buffer:</strong> Allow extra time for potential boat delays</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Important Tips -->
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="alert bg-base-200 shadow-lg">
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-info shrink-0 w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <div>
+              <h3 class="font-bold">💼 Packing Tips</h3>
+              <p class="text-sm mt-2">Keep essentials in carry-on. Boats have limited luggage space. Pack reef-safe sunscreen, swimwear, and light clothing.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="alert bg-base-200 shadow-lg">
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-warning shrink-0 w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
+            </svg>
+            <div>
+              <h3 class="font-bold">⚠️ Weather Considerations</h3>
+              <p class="text-sm mt-2">October is ideal for swimming. Boat schedules depend on weather. Always allow buffer time for your return journey.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- More Information -->
+      <div class="card bg-base-100 shadow-xl">
+        <div class="card-body text-center">
+          <h3 class="text-xl font-bold mb-4 text-baltic-blue">Need More Information?</h3>
+          <p class="mb-4">For detailed travel assistance and transfer arrangements, visit the Alunan Resort website or contact our team.</p>
+          <div class="flex flex-wrap gap-4 justify-center">
+            <a
+              href="https://alunanresort.com/how-to-get-to-alunan-resort-perhentian/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn bg-tropical-teal hover:bg-[#2d8a8c] text-white border-none"
+            >
+              Visit Alunan Travel Guide
+            </a>
+            <a href="#about" class="btn btn-outline border-baltic-blue text-baltic-blue hover:bg-baltic-blue hover:text-white">
+              Contact Event Organizers
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 <!-- Registration CTA Section -->
 <section id="register" class="py-20 bg-gradient-to-r from-baltic-blue to-tropical-teal text-white">
   <div class="container mx-auto px-4 text-center">
