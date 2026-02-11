@@ -138,7 +138,7 @@
       <!-- 16 KM Category -->
       <div class="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
         <div class="card-body">
-          <div class="badge badge-primary badge-lg">ELITE</div>
+          <div class="badge badge-lg bg-baltic-blue text-white border-none">ELITE</div>
           <h3 class="card-title text-3xl mt-2">16 km</h3>
           <p class="text-sm text-gray-500">Solo & Relay (Duo/Team)</p>
           <div class="divider"></div>
@@ -150,7 +150,7 @@
             <li>✓ Age: Solo 18+, Relay 14+</li>
           </ul>
           <div class="card-actions justify-end mt-4">
-            <a href="#registration-form" class="btn btn-primary btn-block">Register</a>
+            <a href="#registration-form" class="btn bg-baltic-blue hover:bg-[#1a4460] text-white border-none btn-block">Register</a>
           </div>
         </div>
       </div>
@@ -158,7 +158,7 @@
       <!-- 10 KM Category -->
       <div class="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
         <div class="card-body">
-          <div class="badge badge-secondary badge-lg">ADVANCED</div>
+          <div class="badge badge-lg bg-[#E91E8C] text-white border-none">ADVANCED</div>
           <h3 class="card-title text-3xl mt-2">10 km</h3>
           <p class="text-sm text-gray-500">Solo</p>
           <div class="divider"></div>
@@ -170,7 +170,7 @@
             <li>✓ Age: 18+</li>
           </ul>
           <div class="card-actions justify-end mt-4">
-            <a href="#registration-form" class="btn btn-secondary btn-block">Register</a>
+            <a href="#registration-form" class="btn bg-[#E91E8C] hover:bg-[#d11a7d] text-white border-none btn-block">Register</a>
           </div>
         </div>
       </div>
@@ -178,7 +178,7 @@
       <!-- 4 KM Category -->
       <div class="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
         <div class="card-body">
-          <div class="badge badge-accent badge-lg">INTERMEDIATE</div>
+          <div class="badge badge-lg bg-tropical-teal text-white border-none">INTERMEDIATE</div>
           <h3 class="card-title text-3xl mt-2">4 km</h3>
           <p class="text-sm text-gray-500">Solo</p>
           <div class="divider"></div>
@@ -189,7 +189,7 @@
             <li>✓ Great for first-timers</li>
           </ul>
           <div class="card-actions justify-end mt-4">
-            <a href="#registration-form" class="btn btn-accent btn-block">Register</a>
+            <a href="#registration-form" class="btn bg-tropical-teal hover:bg-[#2d8a8c] text-white border-none btn-block">Register</a>
           </div>
         </div>
       </div>
@@ -197,7 +197,7 @@
       <!-- 1.5 KM Category -->
       <div class="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
         <div class="card-body">
-          <div class="badge badge-info badge-lg">FUN SWIM</div>
+          <div class="badge badge-lg bg-[#00B4D8] text-white border-none">FUN SWIM</div>
           <h3 class="card-title text-3xl mt-2">1.5 km</h3>
           <p class="text-sm text-gray-500">Solo (13+ years)</p>
           <div class="divider"></div>
@@ -208,7 +208,7 @@
             <li>✓ Ideal for beginners</li>
           </ul>
           <div class="card-actions justify-end mt-4">
-            <a href="#registration-form" class="btn btn-info btn-block">Register</a>
+            <a href="#registration-form" class="btn bg-[#00B4D8] hover:bg-[#0096b8] text-white border-none btn-block">Register</a>
           </div>
         </div>
       </div>
@@ -216,7 +216,7 @@
       <!-- 500M Category -->
       <div class="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
         <div class="card-body">
-          <div class="badge badge-success badge-lg">FUN SWIM</div>
+          <div class="badge badge-lg bg-mint-leaf text-white border-none">FUN SWIM</div>
           <h3 class="card-title text-3xl mt-2">500 m</h3>
           <p class="text-sm text-gray-500">Sea Angel (10-12) & Solo (13+)</p>
           <div class="divider"></div>
@@ -227,7 +227,7 @@
             <li>✓ Perfect for youth</li>
           </ul>
           <div class="card-actions justify-end mt-4">
-            <a href="#registration-form" class="btn btn-success btn-block">Register</a>
+            <a href="#registration-form" class="btn bg-mint-leaf hover:bg-[#45b080] text-white border-none btn-block">Register</a>
           </div>
         </div>
       </div>
@@ -235,7 +235,7 @@
       <!-- 250M Category -->
       <div class="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
         <div class="card-body">
-          <div class="badge badge-warning badge-lg">SEA ANGEL</div>
+          <div class="badge badge-lg bg-[#FFA500] text-black border-none font-semibold">SEA ANGEL</div>
           <h3 class="card-title text-3xl mt-2">250 m</h3>
           <p class="text-sm text-gray-500">Sea Angel (7-9 years)</p>
           <div class="divider"></div>
@@ -246,7 +246,7 @@
             <li>✓ Young swimmers welcome</li>
           </ul>
           <div class="card-actions justify-end mt-4">
-            <a href="#registration-form" class="btn btn-warning btn-block">Register</a>
+            <a href="#registration-form" class="btn bg-[#FFA500] hover:bg-[#e69500] text-black border-none btn-block font-semibold">Register</a>
           </div>
         </div>
       </div>
