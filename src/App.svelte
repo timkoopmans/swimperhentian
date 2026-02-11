@@ -94,28 +94,101 @@
 <!-- About Section -->
 <section id="about" class="py-20 bg-base-100">
   <div class="container mx-auto px-4">
-    <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-baltic-blue">
-      About the Challenge
+    <h2 class="text-4xl md:text-5xl font-bold text-center mb-6 text-baltic-blue">
+      Malaysia Swim Camp
     </h2>
-    <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-      <div class="card bg-base-200 shadow-xl">
+    <p class="text-center text-xl mb-12 text-gray-600 max-w-3xl mx-auto">
+      In conjunction with <strong><a href="https://u24.com.au" target="_blank" rel="noopener noreferrer" class="text-baltic-blue hover:text-tropical-teal transition-colors underline">U24</a></strong> & <strong><a href="https://swimwell.com.au" target="_blank" rel="noopener noreferrer" class="text-baltic-blue hover:text-tropical-teal transition-colors underline">Swimwell</a></strong>, we're heading to the idyllic waters of the Perhentian Islands
+    </p>
+
+    <div class="max-w-6xl mx-auto space-y-8">
+      <!-- Main Description -->
+      <div class="card bg-gradient-to-br from-tropical-teal/10 to-mint-leaf/10 shadow-xl">
         <div class="card-body">
-          <h3 class="card-title text-2xl text-tropical-teal">🌊 The Experience</h3>
-          <p class="text-lg leading-relaxed">
-            The Perhentian Island Challenge is Malaysia's premier open-water swimming event,
-            attracting international and local athletes. Swim alongside coral reefs, tropical fish,
-            and crystal-clear lagoons in the turquoise waters surrounding <a href="https://www.google.com/maps/place/Pulau+Perhentian+Besar/@5.9029142,102.73505,14z/data=!3m1!4b1!4m6!3m5!1s0x31b6e08bc8a6980b:0x3b84f6f746a0078!8m2!3d5.9037879!4d102.7537372!16s%2Fg%2F1hc25hd3l?entry=ttu&g_ep=EgoyMDI2MDIwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="text-tropical-teal underline hover:text-mint-leaf transition-colors font-semibold">Pulau Perhentian Besar</a>.
+          <p class="text-lg leading-relaxed text-center max-w-4xl mx-auto">
+            Set against crystal clear seas and white sand beaches, this camp is designed for swimmers who crave adventure as much as time in the water.
+            Across the week you will enjoy daily swims ranging from relaxed recovery sessions to epic recce swims, iconic island routes, and a thrilling 16km race day experience.
           </p>
         </div>
       </div>
+
+      <!-- Three Column Grid -->
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="card bg-base-200 shadow-xl">
+          <div class="card-body">
+            <h3 class="card-title text-2xl text-tropical-teal">🌊 The Experience</h3>
+            <p class="text-lg leading-relaxed">
+              The Perhentian Island Challenge is Malaysia's premier open-water swimming event,
+              attracting international and local athletes. Swim alongside coral reefs, tropical fish,
+              and crystal-clear lagoons in the turquoise waters surrounding <a href="https://www.google.com/maps/place/Pulau+Perhentian+Besar/@5.9029142,102.73505,14z/data=!3m1!4b1!4m6!3m5!1s0x31b6e08bc8a6980b:0x3b84f6f746a0078!8m2!3d5.9037879!4d102.7537372!16s%2Fg%2F1hc25hd3l?entry=ttu&g_ep=EgoyMDI2MDIwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="text-tropical-teal underline hover:text-mint-leaf transition-colors font-semibold">Pulau Perhentian Besar</a>.
+            </p>
+          </div>
+        </div>
+
+        <div class="card bg-base-200 shadow-xl">
+          <div class="card-body">
+            <h3 class="card-title text-2xl text-mint-leaf">🏆 Elite Open-Water Challenge</h3>
+            <p class="text-lg leading-relaxed">
+              Featuring the challenging 16 km full island circumnavigation and the 10 km one-way swim,
+              this event caters to serious open-water swimmers and relay teams. Safety,
+              logistics, and hospitality are all carefully managed.
+            </p>
+          </div>
+        </div>
+
+        <div class="card bg-base-200 shadow-xl">
+          <div class="card-body">
+            <h3 class="card-title text-2xl text-baltic-blue">🌴 Beyond Swimming</h3>
+            <p class="text-lg leading-relaxed">
+              When we're not swimming, enjoy snorkelling, exploring nearby islands, swimming with turtles,
+              or simply relaxing on a sunset cruise. From Redang Island adventures to beach dinners and recovery days in paradise.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Community & Memories -->
       <div class="card bg-base-200 shadow-xl">
         <div class="card-body">
-          <h3 class="card-title text-2xl text-mint-leaf">🏆 Elite Open-Water Challenge</h3>
-          <p class="text-lg leading-relaxed">
-            Featuring the challenging 16 km full island circumnavigation and the 10 km one-way swim,
-            this event caters to serious open-water swimmers and relay teams. Safety,
-            logistics, and hospitality are all carefully managed.
+          <h3 class="card-title text-2xl text-center justify-center text-baltic-blue mb-4">💫 Community, Challenge & Immersion</h3>
+          <p class="text-lg leading-relaxed text-center max-w-4xl mx-auto">
+            This camp is about community, challenge, and immersion in a truly special location.
+            Whether you're racing or simply soaking it all in, the Perhentian Islands promise warm waters,
+            stunning scenery, and memories that will last well beyond the trip.
           </p>
+          <p class="text-xl font-semibold text-center mt-4 text-tropical-teal">
+            Perhentian Islands is a swim camp and adventure you won't want to miss.
+          </p>
+        </div>
+      </div>
+
+      <!-- Contact Information -->
+      <div class="card bg-gradient-to-r from-baltic-blue to-tropical-teal text-white shadow-xl">
+        <div class="card-body">
+          <h3 class="card-title text-2xl justify-center mb-6">📞 Get In Touch</h3>
+          <p class="text-center text-lg mb-6">
+            <strong>Booking opens soon!</strong> For more information or to express interest, please contact:
+          </p>
+          <div class="grid md:grid-cols-3 gap-6 max-w-3xl mx-auto">
+            <div class="text-center">
+              <p class="font-bold text-lg mb-2">Nick</p>
+              <a href="tel:0455486292" class="link link-hover text-white underline text-lg">
+                0455 486 292
+              </a>
+            </div>
+            <div class="text-center">
+              <p class="font-bold text-lg mb-2">Arno</p>
+              <a href="tel:0419335592" class="link link-hover text-white underline text-lg">
+                0419 335 592
+              </a>
+            </div>
+            <div class="text-center">
+              <p class="font-bold text-lg mb-2">Charlie</p>
+              <a href="tel:0407008322" class="link link-hover text-white underline text-lg">
+                0407 008 322
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
