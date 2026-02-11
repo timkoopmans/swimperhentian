@@ -71,7 +71,7 @@
         🏝️ October 3, 2026 | <a href="https://www.google.com/maps/place/Pulau+Perhentian+Besar/@5.9029142,102.73505,14z/data=!3m1!4b1!4m6!3m5!1s0x31b6e08bc8a6980b:0x3b84f6f746a0078!8m2!3d5.9037879!4d102.7537372!16s%2Fg%2F1hc25hd3l?entry=ttu&g_ep=EgoyMDI2MDIwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="underline hover:text-light-green transition-colors">Pulau Perhentian Besar</a>
       </p>
       <div class="flex flex-wrap gap-4 justify-center mb-12">
-        <a href="#categories" class="btn btn-lg btn-accent shadow-none">View Categories</a>
+        <a href="#categories" class="btn btn-lg bg-white hover:bg-gray-100 text-baltic-blue border-none shadow-none font-semibold">View Categories</a>
         <a href="#registration-form" class="btn btn-lg bg-baltic-blue hover:bg-[#1a4460] text-white border-none shadow-none">Register Now</a>
       </div>
       <div class="stats stats-vertical lg:stats-horizontal shadow-2xl bg-white/90">
