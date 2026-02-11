@@ -1,4 +1,6 @@
 <script lang="ts">
+  import Auth from './lib/Auth.svelte';
+
   let currentSchedule = '16km';
 
   function showSchedule(type: string) {
@@ -6,6 +8,7 @@
   }
 </script>
 
+<Auth>
 <!-- Navigation -->
 <div class="navbar bg-base-100 shadow-lg fixed top-0 z-50">
   <div class="navbar-start">
@@ -46,8 +49,15 @@
 </div>
 
 <!-- Hero Section -->
-<section id="home" class="hero min-h-screen hero-gradient pt-16">
-  <div class="hero-content text-center text-white">
+<section id="home" class="hero min-h-screen relative pt-16 overflow-hidden">
+  <!-- Background Video -->
+  <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover">
+    <source src="/turtle.mp4" type="video/mp4">
+  </video>
+  <!-- Overlay for better text readability -->
+  <div class="absolute inset-0 bg-gradient-to-b from-cyan-900/70 via-blue-900/60 to-teal-900/70"></div>
+  <!-- Content -->
+  <div class="hero-content text-center text-white relative z-10">
     <div class="max-w-4xl">
       <h1 class="text-5xl md:text-7xl font-bold mb-6 drop-shadow-lg">
         SWIM PERHENTIAN 2026
@@ -284,3 +294,4 @@
     <p>Copyright © 2026 - All rights reserved by Swim Perhentian</p>
   </div>
 </footer>
+</Auth>
