@@ -1,5 +1,6 @@
 <script lang="ts">
   import Auth from './lib/Auth.svelte';
+  import RegistrationForm from './lib/RegistrationForm.svelte';
 
   let currentSchedule = '16km';
 
@@ -44,7 +45,7 @@
     </ul>
   </div>
   <div class="navbar-end">
-    <a href="#register" class="btn bg-[#1e88c7] hover:bg-[#1670a8] text-white border-none shadow-none">Register Now</a>
+    <a href="#registration-form" class="btn bg-[#1e88c7] hover:bg-[#1670a8] text-white border-none shadow-none">Register Now</a>
   </div>
 </div>
 
@@ -70,7 +71,7 @@
       </p>
       <div class="flex flex-wrap gap-4 justify-center mb-12">
         <a href="#categories" class="btn btn-lg btn-accent shadow-none">View Categories</a>
-        <a href="#register" class="btn btn-lg bg-[#1e88c7] hover:bg-[#1670a8] text-white border-none shadow-none">Register Now</a>
+        <a href="#registration-form" class="btn btn-lg bg-[#1e88c7] hover:bg-[#1670a8] text-white border-none shadow-none">Register Now</a>
       </div>
       <div class="stats stats-vertical lg:stats-horizontal shadow-2xl bg-white/90">
         <div class="stat">
@@ -148,7 +149,7 @@
             <li>✓ Age: Solo 18+, Relay 14+</li>
           </ul>
           <div class="card-actions justify-end mt-4">
-            <button class="btn btn-primary btn-block">Register</button>
+            <a href="#registration-form" class="btn btn-primary btn-block">Register</a>
           </div>
         </div>
       </div>
@@ -168,7 +169,7 @@
             <li>✓ Age: 18+</li>
           </ul>
           <div class="card-actions justify-end mt-4">
-            <button class="btn btn-secondary btn-block">Register</button>
+            <a href="#registration-form" class="btn btn-secondary btn-block">Register</a>
           </div>
         </div>
       </div>
@@ -187,7 +188,7 @@
             <li>✓ Great for first-timers</li>
           </ul>
           <div class="card-actions justify-end mt-4">
-            <button class="btn btn-accent btn-block">Register</button>
+            <a href="#registration-form" class="btn btn-accent btn-block">Register</a>
           </div>
         </div>
       </div>
@@ -206,7 +207,7 @@
             <li>✓ Ideal for beginners</li>
           </ul>
           <div class="card-actions justify-end mt-4">
-            <button class="btn btn-info btn-block">Register</button>
+            <a href="#registration-form" class="btn btn-info btn-block">Register</a>
           </div>
         </div>
       </div>
@@ -225,7 +226,7 @@
             <li>✓ Perfect for youth</li>
           </ul>
           <div class="card-actions justify-end mt-4">
-            <button class="btn btn-success btn-block">Register</button>
+            <a href="#registration-form" class="btn btn-success btn-block">Register</a>
           </div>
         </div>
       </div>
@@ -244,7 +245,7 @@
             <li>✓ Young swimmers welcome</li>
           </ul>
           <div class="card-actions justify-end mt-4">
-            <button class="btn btn-warning btn-block">Register</button>
+            <a href="#registration-form" class="btn btn-warning btn-block">Register</a>
           </div>
         </div>
       </div>
@@ -262,7 +263,7 @@
       Join swimmers from around the world for an unforgettable open-water experience in paradise
     </p>
     <div class="flex flex-wrap gap-4 justify-center mb-8">
-      <button class="btn btn-lg bg-white hover:bg-gray-100 text-[#1e88c7] border-none font-semibold px-8 shadow-none">Register Now</button>
+      <a href="#registration-form" class="btn btn-lg bg-white hover:bg-gray-100 text-[#1e88c7] border-none font-semibold px-8 shadow-none">Register Now</a>
       <button class="btn btn-lg btn-outline text-white border-white hover:bg-white hover:text-[#1e88c7] font-semibold px-8 shadow-none">Download Info Pack</button>
     </div>
     <div class="text-lg">
@@ -270,6 +271,9 @@
     </div>
   </div>
 </section>
+
+<!-- Registration Form -->
+<RegistrationForm />
 
 <!-- Footer -->
 <footer class="footer footer-center p-10 bg-base-200 text-base-content">
