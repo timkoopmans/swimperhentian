@@ -259,7 +259,7 @@
       Event Schedule
     </h2>
     <p class="text-center text-lg mb-12 text-gray-600">
-      October 2026 - A week of swimming, exploration, and adventure
+      September 28 - October 5, 2026 - A week of swimming, exploration, and adventure
     </p>
 
     <div class="max-w-6xl mx-auto">
@@ -270,7 +270,7 @@
         <div class="card bg-base-200 shadow-xl hover:shadow-2xl transition-all duration-300">
           <div class="card-body">
             <div class="flex flex-col md:flex-row gap-4 items-start">
-              <div class="badge badge-lg bg-tropical-teal text-white border-none font-semibold min-w-[140px]">MON OCT 28</div>
+              <div class="badge badge-lg bg-tropical-teal text-white border-none font-semibold min-w-[140px]">MON SEP 28</div>
               <div class="flex-1">
                 <h3 class="card-title text-2xl mb-3 text-baltic-blue">Arrival & Settle In</h3>
                 <ul class="space-y-2 text-base">
@@ -288,7 +288,7 @@
         <div class="card bg-base-200 shadow-xl hover:shadow-2xl transition-all duration-300">
           <div class="card-body">
             <div class="flex flex-col md:flex-row gap-4 items-start">
-              <div class="badge badge-lg bg-tropical-teal text-white border-none font-semibold min-w-[140px]">TUE OCT 29</div>
+              <div class="badge badge-lg bg-tropical-teal text-white border-none font-semibold min-w-[140px]">TUE SEP 29</div>
               <div class="flex-1">
                 <h3 class="card-title text-2xl mb-3 text-baltic-blue">Redang Island Exploration Day</h3>
                 <ul class="space-y-2 text-base">
@@ -307,7 +307,7 @@
         <div class="card bg-base-200 shadow-xl hover:shadow-2xl transition-all duration-300">
           <div class="card-body">
             <div class="flex flex-col md:flex-row gap-4 items-start">
-              <div class="badge badge-lg bg-tropical-teal text-white border-none font-semibold min-w-[140px]">WED OCT 30</div>
+              <div class="badge badge-lg bg-tropical-teal text-white border-none font-semibold min-w-[140px]">WED SEP 30</div>
               <div class="flex-1">
                 <h3 class="card-title text-2xl mb-3 text-baltic-blue">Snorkel / Scuba Day</h3>
                 <ul class="space-y-2 text-base">
@@ -420,7 +420,7 @@
         </svg>
         <div>
           <h3 class="font-bold text-lg">Planning Your Trip</h3>
-          <p class="text-sm">We recommend arriving on Monday, October 28th to make the most of the full experience. The official race is on Saturday, October 3rd, with optional activities before and after.</p>
+          <p class="text-sm">We recommend arriving on Monday, September 28th to make the most of the full experience. The official race is on Saturday, October 3rd, with optional activities before and after.</p>
         </div>
       </div>
     </div>
@@ -702,10 +702,10 @@
                 <span>🛬</span> Arrival
               </h4>
               <ul class="space-y-3 text-base">
-                <li><strong>Recommended Arrival:</strong> Monday, October 28, 2026</li>
-                <li><strong>Latest Arrival:</strong> Before 3:00 PM on Oct 28 to catch afternoon boat</li>
+                <li><strong>Recommended Arrival:</strong> Monday, September 28, 2026</li>
+                <li><strong>Latest Arrival:</strong> Before 3:00 PM on Sept 28 to catch afternoon boat</li>
                 <li><strong>Ideal Flight:</strong> Arrive Kota Bharu by 12:00 PM to allow time for transfers</li>
-                <li><strong>Tip:</strong> Arriving a day earlier (Oct 27) gives you buffer time and helps with jet lag</li>
+                <li><strong>Tip:</strong> Arriving a day earlier (Sept 27) gives you buffer time and helps with jet lag</li>
               </ul>
             </div>
             <div>
