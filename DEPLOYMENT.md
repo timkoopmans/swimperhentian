@@ -70,12 +70,25 @@ To manually trigger a deployment:
 
 ## 📝 Important Notes
 
-- The base path in `vite.config.ts` is set to `/swimperhentian/`
-- This matches your repository name
-- If you rename the repository, update this in `vite.config.ts`
+- The base path in `vite.config.ts` is set to `/` (root)
+- This is correct for custom domain setup (swimperhentian.com)
+- If you were using GitHub Pages without a custom domain, you'd need `/swimperhentian/`
 - The `.nojekyll` file ensures all assets load correctly
 - Build output goes to `dist/` directory
 - **Always commit `package-lock.json`** - The workflow uses `npm ci` which requires the lock file to be in sync
+
+## 🌐 Custom Domain Setup
+
+The site is configured for the custom domain: **swimperhentian.com**
+
+If you're using `username.github.io/swimperhentian/`:
+- Change `base: '/'` to `base: '/swimperhentian/'` in `vite.config.ts`
+- Rebuild with `npm run build`
+
+If you're using a custom domain (current setup):
+- Keep `base: '/'` in `vite.config.ts` ✅
+- Configure your domain DNS to point to GitHub Pages
+- Add CNAME file in the repository root (GitHub does this automatically)
 
 ## 🐛 Troubleshooting
 
