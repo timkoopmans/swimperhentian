@@ -21,6 +21,7 @@
         <li><a href="#categories">Categories</a></li>
         <li><a href="#gallery">Gallery</a></li>
         <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#accommodation">Accommodation</a></li>
         <li><a href="#travel">Travel</a></li>
         <li><a href="#safety">Safety</a></li>
       </ul>
@@ -37,6 +38,7 @@
       <li><a href="#categories">Categories</a></li>
       <li><a href="#gallery">Gallery</a></li>
       <li><a href="#schedule">Schedule</a></li>
+      <li><a href="#accommodation">Accommodation</a></li>
       <li><a href="#travel">Travel</a></li>
       <li><a href="#safety">Safety</a></li>
     </ul>
@@ -419,6 +421,149 @@
         <div>
           <h3 class="font-bold text-lg">Planning Your Trip</h3>
           <p class="text-sm">We recommend arriving on Monday, October 28th to make the most of the full experience. The official race is on Saturday, October 3rd, with optional activities before and after.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Accommodation Section -->
+<section id="accommodation" class="py-20 bg-gradient-to-b from-tea-green/30 to-light-green/20 relative overflow-hidden">
+  <div class="container mx-auto px-4 relative z-10">
+    <h2 class="text-4xl md:text-5xl font-bold text-center mb-4 text-baltic-blue">
+      Accommodation
+    </h2>
+    <p class="text-center text-lg mb-12 text-gray-600">
+      Included in your package - Stay at the stunning Alunan Resort
+    </p>
+
+    <div class="max-w-6xl mx-auto">
+      <!-- Main Resort Card with Video Background -->
+      <div class="card bg-base-100 shadow-2xl overflow-hidden mb-8">
+        <div class="relative h-[400px] md:h-[500px]">
+          <!-- Vimeo Video Background -->
+          <div class="absolute inset-0">
+            <iframe
+              src="https://player.vimeo.com/video/1045914033?background=1&autoplay=1&loop=1&byline=0&title=0&muted=1"
+              class="w-full h-full object-cover border-0"
+              allow="autoplay; fullscreen"
+              title="Alunan Resort Video"
+            ></iframe>
+          </div>
+          <!-- Overlay for text readability -->
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+          <!-- Content Overlay -->
+          <div class="absolute bottom-0 left-0 right-0 p-6 md:p-8 text-white">
+            <h3 class="text-3xl md:text-4xl font-bold mb-2">Alunan Resort</h3>
+            <p class="text-lg md:text-xl mb-4">Your Home in Paradise</p>
+            <div class="flex flex-wrap gap-4 items-center">
+              <a
+                href="https://alunanresort.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn bg-white hover:bg-gray-100 text-baltic-blue border-none shadow-lg"
+              >
+                Visit Resort Website
+              </a>
+              <a
+                href="https://www.tripadvisor.com.au/Hotel_Review-g304004-d7318153-Reviews-Alunan_Resort-Pulau_Perhentian_Kecil_Perhentian_Islands_Terengganu.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-outline text-white border-white hover:bg-white hover:text-baltic-blue shadow-lg"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
+                </svg>
+                TripAdvisor Reviews
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Resort Features Grid -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+        <div class="card bg-base-100 shadow-xl">
+          <div class="card-body items-center text-center">
+            <div class="text-4xl mb-2">🏊</div>
+            <h4 class="card-title text-lg">Infinity Pool</h4>
+            <p class="text-sm">Cliff-edge pool with sweeping sea views</p>
+          </div>
+        </div>
+
+        <div class="card bg-base-100 shadow-xl">
+          <div class="card-body items-center text-center">
+            <div class="text-4xl mb-2">🍽️</div>
+            <h4 class="card-title text-lg">All-Inclusive Dining</h4>
+            <p class="text-sm">Bayu Restaurant with bottomless drinks</p>
+          </div>
+        </div>
+
+        <div class="card bg-base-100 shadow-xl">
+          <div class="card-body items-center text-center">
+            <div class="text-4xl mb-2">🏖️</div>
+            <h4 class="card-title text-lg">Private Beach Access</h4>
+            <p class="text-sm">Direct access to pristine white sand beaches</p>
+          </div>
+        </div>
+
+        <div class="card bg-base-100 shadow-xl">
+          <div class="card-body items-center text-center">
+            <div class="text-4xl mb-2">🤿</div>
+            <h4 class="card-title text-lg">Water Activities</h4>
+            <p class="text-sm">Snorkeling, kayaking, paddleboarding included</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Package Inclusions -->
+      <div class="card bg-gradient-to-r from-baltic-blue to-tropical-teal text-white shadow-xl">
+        <div class="card-body">
+          <h3 class="card-title text-2xl md:text-3xl justify-center mb-6">✨ Package Inclusions</h3>
+          <div class="grid md:grid-cols-2 gap-6">
+            <div>
+              <h4 class="font-bold text-lg mb-3">Accommodation:</h4>
+              <ul class="space-y-2">
+                <li>✓ Serenity Suites or Family Pool View Villas</li>
+                <li>✓ Rooftop balcony with sun loungers</li>
+                <li>✓ Minibar, Wi-Fi, reef-safe toiletries</li>
+                <li>✓ Scheduled boat transfers from Kuala Besut</li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="font-bold text-lg mb-3">Activities & Amenities:</h4>
+              <ul class="space-y-2">
+                <li>✓ All meals and bottomless drinks</li>
+                <li>✓ Unlimited snorkeling trips with gear</li>
+                <li>✓ Sunset cruise with canapés & cocktails</li>
+                <li>✓ Access to kayaks, paddleboards & more</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TripAdvisor Highlight -->
+      <div class="alert bg-base-100 shadow-xl mt-8">
+        <div class="flex items-start gap-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-mint-leaf flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+          </svg>
+          <div class="flex-1">
+            <h4 class="font-bold text-lg mb-2">Highly Rated on TripAdvisor</h4>
+            <p class="text-sm mb-3">
+              Alunan Resort is consistently praised for its stunning location, exceptional service, and pristine facilities.
+              Guests rave about the infinity pool, delicious food, and the perfect blend of relaxation and adventure.
+            </p>
+            <a
+              href="https://www.tripadvisor.com.au/Hotel_Review-g304004-d7318153-Reviews-Alunan_Resort-Pulau_Perhentian_Kecil_Perhentian_Islands_Terengganu.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link link-hover text-tropical-teal font-semibold"
+            >
+              Read reviews on TripAdvisor →
+            </a>
+          </div>
         </div>
       </div>
     </div>
