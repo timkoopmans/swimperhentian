@@ -115,7 +115,7 @@
         <div class="text-sm text-gray-500 text-center">
           <p>Contact the administrator if you need access.</p>
           <p class="mt-2">📅 Event Date: October 3, 2026</p>
-          <p>🏝️ Location: Pulau Perhentian Besar</p>
+          <p>🏝️ Location: <a href="https://www.google.com/maps/place/Pulau+Perhentian+Besar/@5.9029142,102.73505,14z/data=!3m1!4b1!4m6!3m5!1s0x31b6e08bc8a6980b:0x3b84f6f746a0078!8m2!3d5.9037879!4d102.7537372!16s%2Fg%2F1hc25hd3l?entry=ttu&g_ep=EgoyMDI2MDIwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="text-blue-500 underline hover:text-blue-700 transition-colors">Pulau Perhentian Besar</a></p>
         </div>
       </div>
     </div>
