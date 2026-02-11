@@ -1,47 +1,110 @@
-# Svelte + TS + Vite
+# Swim Perhentian 2026 🏊‍♂️
 
-This template should help get you started developing with Svelte and TypeScript in Vite.
+Official website for Malaysia's Premier Open-Water Swimming Event.
 
-## Recommended IDE Setup
+**Event Date:** October 3, 2026  
+**Location:** Pulau Perhentian Besar, Malaysia
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+## About
 
-## Need an official Svelte framework?
+The Perhentian Island Challenge features distances ranging from 250m to 16km, catering to elite marathon swimmers, relay teams, and newcomers alike. Swim alongside coral reefs, tropical fish, and crystal-clear lagoons in pristine tropical waters.
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+## Tech Stack
 
-## Technical considerations
+- **Framework:** Svelte 5 + TypeScript
+- **Build Tool:** Vite 6
+- **Styling:** Tailwind CSS + DaisyUI
+- **Deployment:** GitHub Pages
 
-**Why use this over SvelteKit?**
+## Development
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+Install dependencies:
 
-This template contains as little as possible to get started with Vite + TypeScript + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
-
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
-
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
-
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
-
-**Why include `.vscode/extensions.json`?**
-
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
-
-**Why enable `allowJs` in the TS template?**
-
-While `allowJs: false` would indeed prevent the use of `.js` files in the project, it does not prevent the use of JavaScript syntax in `.svelte` files. In addition, it would force `checkJs: false`, bringing the worst of both worlds: not being able to guarantee the entire codebase is TypeScript, and also having worse typechecking for the existing JavaScript. In addition, there are valid use cases in which a mixed codebase may be relevant.
-
-**Why is HMR not preserving my local component state?**
-
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/rixo/svelte-hmr#svelte-hmr).
-
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
-
-```ts
-// store.ts
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
+```bash
+npm install
 ```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
+## GitHub Pages Deployment
+
+This site is configured to automatically deploy to GitHub Pages when you push to the `main` branch.
+
+### Setup Instructions:
+
+1. **Enable GitHub Pages:**
+   - Go to your repository settings
+   - Navigate to **Pages** (under "Code and automation")
+   - Under "Build and deployment":
+     - Source: **GitHub Actions**
+
+2. **Push to main branch:**
+   ```bash
+   git add .
+   git commit -m "Deploy to GitHub Pages"
+   git push origin main
+   ```
+
+3. **Monitor deployment:**
+   - Go to the **Actions** tab in your repository
+   - Watch the "Deploy static content to Pages" workflow
+   - Once complete, your site will be live at: `https://[username].github.io/swimperhentian/`
+
+### Manual Deployment
+
+You can also trigger a deployment manually:
+- Go to **Actions** tab
+- Select "Deploy static content to Pages" workflow
+- Click "Run workflow"
+
+## Project Structure
+
+```
+swimperhentian/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml          # GitHub Pages deployment workflow
+├── public/
+│   ├── .nojekyll              # Prevents Jekyll processing
+│   └── vite.svg
+├── src/
+│   ├── App.svelte             # Main application component
+│   ├── app.css                # Global styles with Tailwind
+│   └── main.ts                # Application entry point
+├── index.html
+├── vite.config.ts             # Vite configuration with base path
+├── tailwind.config.js         # Tailwind + DaisyUI configuration
+└── package.json
+```
+
+## Features
+
+- ✅ Responsive design for all devices
+- ✅ DaisyUI component library
+- ✅ Smooth scroll navigation
+- ✅ Event categories showcase
+- ✅ Schedule information
+- ✅ Travel & logistics details
+- ✅ Safety information
+- ✅ Registration CTA
+
+## License
+
+Copyright © 2026 - All rights reserved by Swim Perhentian
+

@@ -274,7 +274,9 @@
     <div class="grid grid-flow-col gap-4">
       <a href="#about" class="link link-hover">About</a>
       <a href="#register" class="link link-hover">Contact</a>
+      <!-- svelte-ignore a11y_invalid_attribute -->
       <a href="#" class="link link-hover">Terms & Conditions</a>
+      <!-- svelte-ignore a11y_invalid_attribute -->
       <a href="#" class="link link-hover">Privacy Policy</a>
     </div>
   </div>
