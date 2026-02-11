@@ -1,12 +1,6 @@
 <script lang="ts">
   import Auth from './lib/Auth.svelte';
   import Gallery from './lib/Gallery.svelte';
-
-  let currentSchedule = '16km';
-
-  function showSchedule(type: string) {
-    currentSchedule = type;
-  }
 </script>
 
 <Auth>
@@ -182,6 +176,181 @@
 
 <!-- Gallery Section -->
 <Gallery />
+
+<!-- Schedule Section -->
+<section id="schedule" class="py-20 bg-base-100">
+  <div class="container mx-auto px-4">
+    <h2 class="text-4xl md:text-5xl font-bold text-center mb-4 text-baltic-blue">
+      Event Schedule
+    </h2>
+    <p class="text-center text-lg mb-12 text-gray-600">
+      October 2026 - A week of swimming, exploration, and adventure
+    </p>
+
+    <div class="max-w-6xl mx-auto">
+      <!-- Timeline -->
+      <div class="space-y-8">
+
+        <!-- Monday 28th -->
+        <div class="card bg-base-200 shadow-xl hover:shadow-2xl transition-all duration-300">
+          <div class="card-body">
+            <div class="flex flex-col md:flex-row gap-4 items-start">
+              <div class="badge badge-lg bg-tropical-teal text-white border-none font-semibold min-w-[140px]">MON OCT 28</div>
+              <div class="flex-1">
+                <h3 class="card-title text-2xl mb-3 text-baltic-blue">Arrival & Settle In</h3>
+                <ul class="space-y-2 text-base">
+                  <li>✓ Arrive in Perhentian</li>
+                  <li>✓ Check in / settle in</li>
+                  <li>✓ Light swim (optional)</li>
+                  <li>✓ Explore the area / beach walk</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tuesday 29th -->
+        <div class="card bg-base-200 shadow-xl hover:shadow-2xl transition-all duration-300">
+          <div class="card-body">
+            <div class="flex flex-col md:flex-row gap-4 items-start">
+              <div class="badge badge-lg bg-tropical-teal text-white border-none font-semibold min-w-[140px]">TUE OCT 29</div>
+              <div class="flex-1">
+                <h3 class="card-title text-2xl mb-3 text-baltic-blue">Redang Island Exploration Day</h3>
+                <ul class="space-y-2 text-base">
+                  <li>✓ Early morning start</li>
+                  <li>✓ Explore the island</li>
+                  <li>✓ <strong>Swim: 2.5 km</strong></li>
+                  <li>✓ Snorkelling session</li>
+                  <li>✓ Easy recovery + rest</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Wednesday 30th -->
+        <div class="card bg-base-200 shadow-xl hover:shadow-2xl transition-all duration-300">
+          <div class="card-body">
+            <div class="flex flex-col md:flex-row gap-4 items-start">
+              <div class="badge badge-lg bg-tropical-teal text-white border-none font-semibold min-w-[140px]">WED OCT 30</div>
+              <div class="flex-1">
+                <h3 class="card-title text-2xl mb-3 text-baltic-blue">Snorkel / Scuba Day</h3>
+                <ul class="space-y-2 text-base">
+                  <li>✓ Snorkel and/or scuba</li>
+                  <li>✓ Dive boat trip to multiple locations around the island</li>
+                  <li>✓ Dinner at the beach</li>
+                  <li>✓ Night boat experience</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Thursday 1st -->
+        <div class="card bg-base-200 shadow-xl hover:shadow-2xl transition-all duration-300">
+          <div class="card-body">
+            <div class="flex flex-col md:flex-row gap-4 items-start">
+              <div class="badge badge-lg bg-tropical-teal text-white border-none font-semibold min-w-[140px]">THU OCT 1</div>
+              <div class="flex-1">
+                <h3 class="card-title text-2xl mb-3 text-baltic-blue">Recce Swim + PIR Turtle Beach</h3>
+                <ul class="space-y-2 text-base">
+                  <li>✓ <strong>Recce swim: 4–5 km</strong></li>
+                  <li>✓ Boats & kayaks session (optional)</li>
+                  <li>✓ PIR visit</li>
+                  <li>✓ Turtle Beach time / explore</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Friday 2nd -->
+        <div class="card bg-base-200 shadow-xl hover:shadow-2xl transition-all duration-300">
+          <div class="card-body">
+            <div class="flex flex-col md:flex-row gap-4 items-start">
+              <div class="badge badge-lg bg-mint-leaf text-white border-none font-semibold min-w-[140px]">FRI OCT 2</div>
+              <div class="flex-1">
+                <h3 class="card-title text-2xl mb-3 text-baltic-blue">Alunan to Village Swim + Briefing</h3>
+                <ul class="space-y-2 text-base">
+                  <li>✓ Morning swim: Alunan to Village</li>
+                  <li>✓ Race briefing / prep session</li>
+                  <li>✓ Dinner at PIR</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Saturday 3rd - RACE DAY -->
+        <div class="card bg-gradient-to-r from-baltic-blue to-tropical-teal text-white shadow-xl hover:shadow-2xl transition-all duration-300">
+          <div class="card-body">
+            <div class="flex flex-col md:flex-row gap-4 items-start">
+              <div class="badge badge-lg bg-[#E91E8C] text-white border-none font-semibold min-w-[140px] text-base">SAT OCT 3</div>
+              <div class="flex-1">
+                <h3 class="card-title text-2xl mb-3 flex items-center gap-2">
+                  🏆 Race Day
+                </h3>
+                <ul class="space-y-2 text-base">
+                  <li>✓ Early start / race prep</li>
+                  <li>✓ <strong>Race event (full-day involvement)</strong></li>
+                  <li>✓ Medals + post-race activities</li>
+                  <li>✓ Crew dinner at Alunan</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sunday 4th -->
+        <div class="card bg-base-200 shadow-xl hover:shadow-2xl transition-all duration-300">
+          <div class="card-body">
+            <div class="flex flex-col md:flex-row gap-4 items-start">
+              <div class="badge badge-lg bg-mint-leaf text-white border-none font-semibold min-w-[140px]">SUN OCT 4</div>
+              <div class="flex-1">
+                <h3 class="card-title text-2xl mb-3 text-baltic-blue">Recovery & Celebration</h3>
+                <ul class="space-y-2 text-base">
+                  <li>✓ Recovery day / free time</li>
+                  <li>✓ Relax + optional gentle swim</li>
+                  <li>✓ Sunset cruise</li>
+                  <li>✓ Yacht trip experience</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Monday 5th -->
+        <div class="card bg-base-200 shadow-xl hover:shadow-2xl transition-all duration-300">
+          <div class="card-body">
+            <div class="flex flex-col md:flex-row gap-4 items-start">
+              <div class="badge badge-lg bg-tropical-teal text-white border-none font-semibold min-w-[140px]">MON OCT 5</div>
+              <div class="flex-1">
+                <h3 class="card-title text-2xl mb-3 text-baltic-blue">Final Swim + Departure</h3>
+                <ul class="space-y-2 text-base">
+                  <li>✓ Morning swim (easy / fun session)</li>
+                  <li>✓ Lunch with crew</li>
+                  <li>✓ Depart island / travel home</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Additional Info -->
+      <div class="alert alert-info mt-12 shadow-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+        </svg>
+        <div>
+          <h3 class="font-bold text-lg">Planning Your Trip</h3>
+          <p class="text-sm">We recommend arriving on Monday, October 28th to make the most of the full experience. The official race is on Saturday, October 3rd, with optional activities before and after.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- Registration CTA Section -->
 <section id="register" class="py-20 bg-gradient-to-r from-baltic-blue to-tropical-teal text-white">
