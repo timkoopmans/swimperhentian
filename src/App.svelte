@@ -1,6 +1,7 @@
 <script lang="ts">
   import Auth from './lib/Auth.svelte';
   import RegistrationForm from './lib/RegistrationForm.svelte';
+  import Gallery from './lib/Gallery.svelte';
 
   let currentSchedule = '16km';
 
@@ -25,6 +26,7 @@
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#categories">Categories</a></li>
+        <li><a href="#gallery">Gallery</a></li>
         <li><a href="#schedule">Schedule</a></li>
         <li><a href="#travel">Travel</a></li>
         <li><a href="#safety">Safety</a></li>
@@ -40,6 +42,7 @@
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#categories">Categories</a></li>
+      <li><a href="#gallery">Gallery</a></li>
       <li><a href="#schedule">Schedule</a></li>
       <li><a href="#travel">Travel</a></li>
       <li><a href="#safety">Safety</a></li>
@@ -253,6 +256,9 @@
     </div>
   </div>
 </section>
+
+<!-- Gallery Section -->
+<Gallery />
 
 <!-- Registration CTA Section -->
 <section id="register" class="py-20 bg-gradient-to-r from-baltic-blue to-tropical-teal text-white">
