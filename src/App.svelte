@@ -30,8 +30,9 @@
         <li><a href="#safety">Safety</a></li>
       </ul>
     </div>
-    <a class="btn btn-ghost text-xl font-bold text-primary" href="#home">
-      🏊‍♂️ SWIM PERHENTIAN
+    <a class="btn btn-ghost text-xl font-bold text-baltic-blue flex items-center gap-2" href="#home">
+      <img src="/logo.png" alt="Swim Perhentian Logo" class="h-8 w-8 object-contain" />
+      SWIM PERHENTIAN
     </a>
   </div>
   <div class="navbar-center hidden lg:flex">
@@ -45,7 +46,7 @@
     </ul>
   </div>
   <div class="navbar-end">
-    <a href="#registration-form" class="btn bg-[#1e88c7] hover:bg-[#1670a8] text-white border-none shadow-none">Register Now</a>
+    <a href="#registration-form" class="btn bg-baltic-blue hover:bg-[#1a4460] text-white border-none shadow-none">Register Now</a>
   </div>
 </div>
 
@@ -56,7 +57,7 @@
     <source src="/turtle.mp4" type="video/mp4">
   </video>
   <!-- Overlay for better text readability -->
-  <div class="absolute inset-0 bg-gradient-to-b from-cyan-900/70 via-blue-900/60 to-teal-900/70"></div>
+  <div class="absolute inset-0 bg-gradient-to-b from-baltic-blue/70 via-tropical-teal/60 to-mint-leaf/70"></div>
   <!-- Content -->
   <div class="hero-content text-center text-white relative z-10">
     <div class="max-w-4xl">
@@ -67,26 +68,26 @@
         Malaysia's Premier Open-Water Swimming Event
       </p>
       <p class="text-xl md:text-2xl mb-8 font-semibold">
-        🏝️ October 3, 2026 | Pulau Perhentian Besar
+        🏝️ October 3, 2026 | <a href="https://www.google.com/maps/place/Pulau+Perhentian+Besar/@5.9029142,102.73505,14z/data=!3m1!4b1!4m6!3m5!1s0x31b6e08bc8a6980b:0x3b84f6f746a0078!8m2!3d5.9037879!4d102.7537372!16s%2Fg%2F1hc25hd3l?entry=ttu&g_ep=EgoyMDI2MDIwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="underline hover:text-light-green transition-colors">Pulau Perhentian Besar</a>
       </p>
       <div class="flex flex-wrap gap-4 justify-center mb-12">
         <a href="#categories" class="btn btn-lg btn-accent shadow-none">View Categories</a>
-        <a href="#registration-form" class="btn btn-lg bg-[#1e88c7] hover:bg-[#1670a8] text-white border-none shadow-none">Register Now</a>
+        <a href="#registration-form" class="btn btn-lg bg-baltic-blue hover:bg-[#1a4460] text-white border-none shadow-none">Register Now</a>
       </div>
       <div class="stats stats-vertical lg:stats-horizontal shadow-2xl bg-white/90">
         <div class="stat">
           <div class="stat-title text-gray-600">Distance Options</div>
-          <div class="stat-value text-primary">250m - 16km</div>
+          <div class="stat-value text-baltic-blue">250m - 16km</div>
           <div class="stat-desc text-gray-600">For all skill levels</div>
         </div>
         <div class="stat">
           <div class="stat-title text-gray-600">Water Temp</div>
-          <div class="stat-value text-cyan-600">28-31°C</div>
+          <div class="stat-value text-tropical-teal">28-31°C</div>
           <div class="stat-desc text-gray-600">Perfect conditions</div>
         </div>
         <div class="stat">
           <div class="stat-title text-gray-600">Event Date</div>
-          <div class="stat-value text-teal-600">Oct 3</div>
+          <div class="stat-value text-mint-leaf">Oct 3</div>
           <div class="stat-desc text-gray-600">2026</div>
         </div>
       </div>
@@ -97,23 +98,23 @@
 <!-- About Section -->
 <section id="about" class="py-20 bg-base-100">
   <div class="container mx-auto px-4">
-    <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-primary">
+    <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-baltic-blue">
       About the Challenge
     </h2>
     <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
       <div class="card bg-base-200 shadow-xl">
         <div class="card-body">
-          <h3 class="card-title text-2xl text-cyan-600">🌊 The Experience</h3>
+          <h3 class="card-title text-2xl text-tropical-teal">🌊 The Experience</h3>
           <p class="text-lg leading-relaxed">
             The Perhentian Island Challenge is Malaysia's premier open-water swimming event,
             attracting international and local athletes. Swim alongside coral reefs, tropical fish,
-            and crystal-clear lagoons in the turquoise waters surrounding Pulau Perhentian Besar.
+            and crystal-clear lagoons in the turquoise waters surrounding <a href="https://www.google.com/maps/place/Pulau+Perhentian+Besar/@5.9029142,102.73505,14z/data=!3m1!4b1!4m6!3m5!1s0x31b6e08bc8a6980b:0x3b84f6f746a0078!8m2!3d5.9037879!4d102.7537372!16s%2Fg%2F1hc25hd3l?entry=ttu&g_ep=EgoyMDI2MDIwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="text-tropical-teal underline hover:text-mint-leaf transition-colors font-semibold">Pulau Perhentian Besar</a>.
           </p>
         </div>
       </div>
       <div class="card bg-base-200 shadow-xl">
         <div class="card-body">
-          <h3 class="card-title text-2xl text-teal-600">🏆 For Everyone</h3>
+          <h3 class="card-title text-2xl text-mint-leaf">🏆 For Everyone</h3>
           <p class="text-lg leading-relaxed">
             With distances ranging from the 16 km solo island marathon to the 250 m fun swims,
             it caters to elite marathon swimmers, relay teams, and newcomers alike. Safety,
@@ -126,9 +127,9 @@
 </section>
 
 <!-- Categories Section -->
-<section id="categories" class="py-20 bg-gradient-to-b from-cyan-50 to-blue-50">
+<section id="categories" class="py-20 bg-gradient-to-b from-tea-green/30 to-light-green/20">
   <div class="container mx-auto px-4">
-    <h2 class="text-4xl md:text-5xl font-bold text-center mb-4 text-primary">
+    <h2 class="text-4xl md:text-5xl font-bold text-center mb-4 text-baltic-blue">
       Event Categories
     </h2>
     <p class="text-center text-lg mb-12 text-gray-600">Choose your challenge</p>
@@ -254,7 +255,7 @@
 </section>
 
 <!-- Registration CTA Section -->
-<section id="register" class="py-20 bg-gradient-to-r from-cyan-600 to-blue-600 text-white">
+<section id="register" class="py-20 bg-gradient-to-r from-baltic-blue to-tropical-teal text-white">
   <div class="container mx-auto px-4 text-center">
     <h2 class="text-4xl md:text-5xl font-bold mb-6">
       Ready to Take the Challenge?
@@ -263,8 +264,8 @@
       Join swimmers from around the world for an unforgettable open-water experience in paradise
     </p>
     <div class="flex flex-wrap gap-4 justify-center mb-8">
-      <a href="#registration-form" class="btn btn-lg bg-white hover:bg-gray-100 text-[#1e88c7] border-none font-semibold px-8 shadow-none">Register Now</a>
-      <button class="btn btn-lg btn-outline text-white border-white hover:bg-white hover:text-[#1e88c7] font-semibold px-8 shadow-none">Download Info Pack</button>
+      <a href="#registration-form" class="btn btn-lg bg-white hover:bg-gray-100 text-baltic-blue border-none font-semibold px-8 shadow-none">Register Now</a>
+      <button class="btn btn-lg btn-outline text-white border-white hover:bg-white hover:text-baltic-blue font-semibold px-8 shadow-none">Download Info Pack</button>
     </div>
     <div class="text-lg">
       <p>📧 Email: <a href="mailto:info@swimperhentian.com" class="underline">info@swimperhentian.com</a></p>
@@ -278,11 +279,14 @@
 <!-- Footer -->
 <footer class="footer footer-center p-10 bg-base-200 text-base-content">
   <div>
-    <p class="font-bold text-2xl text-primary">
-      SWIM PERHENTIAN 2026 🏊‍♂️
-    </p>
+    <div class="flex items-center justify-center gap-2 mb-2">
+      <img src="/logo.png" alt="Swim Perhentian Logo" class="h-10 w-10 object-contain" />
+      <p class="font-bold text-2xl text-baltic-blue">
+        SWIM PERHENTIAN 2026
+      </p>
+    </div>
     <p>Malaysia's Premier Open-Water Swimming Event</p>
-    <p>October 3, 2026 | Pulau Perhentian Besar</p>
+    <p>October 3, 2026 | <a href="https://www.google.com/maps/place/Pulau+Perhentian+Besar/@5.9029142,102.73505,14z/data=!3m1!4b1!4m6!3m5!1s0x31b6e08bc8a6980b:0x3b84f6f746a0078!8m2!3d5.9037879!4d102.7537372!16s%2Fg%2F1hc25hd3l?entry=ttu&g_ep=EgoyMDI2MDIwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="text-tropical-teal underline hover:text-mint-leaf transition-colors">Pulau Perhentian Besar</a></p>
   </div>
   <div>
     <div class="grid grid-flow-col gap-4">

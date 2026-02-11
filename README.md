@@ -82,7 +82,7 @@ swimperhentian/
 │       └── deploy.yml          # GitHub Pages deployment workflow
 ├── public/
 │   ├── .nojekyll              # Prevents Jekyll processing
-│   └── vite.svg
+│   └── logo.png
 ├── src/
 │   ├── App.svelte             # Main application component
 │   ├── app.css                # Global styles with Tailwind

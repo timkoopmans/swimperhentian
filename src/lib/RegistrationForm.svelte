@@ -6,7 +6,7 @@
 
 <div class="py-20 bg-base-100" id="registration-form">
   <div class="container mx-auto px-4">
-    <h2 class="text-4xl md:text-5xl font-bold text-center mb-4 text-primary">
+    <h2 class="text-4xl md:text-5xl font-bold text-center mb-4 text-baltic-blue">
       Register for Swim Perhentian 2026
     </h2>
     <p class="text-center text-lg mb-8 text-gray-600">
@@ -51,7 +51,7 @@
       <div class="text-center mt-8">
         <p class="text-lg">
           Need help? Contact us at:
-          <a href="mailto:info@swimperhentian.com" class="link link-primary font-semibold">
+          <a href="mailto:info@swimperhentian.com" class="link text-baltic-blue font-semibold">
             info@swimperhentian.com
           </a>
         </p>
