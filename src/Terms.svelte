@@ -274,6 +274,67 @@
         </div>
       </div>
 
+      <!-- Safety -->
+      <div class="card bg-gradient-to-br from-baltic-blue/10 to-tropical-teal/10 shadow-xl mb-8" id="safety">
+        <div class="card-body">
+          <h2 class="card-title text-2xl text-baltic-blue mb-4">Safety</h2>
+
+          <h3 class="font-bold text-lg text-tropical-teal mb-3">Swimmer Safety / Cut-off Time</h3>
+          <p class="mb-4 text-sm leading-relaxed">
+            In the best interests of the health and safety of swimmers, all swimmers who have been in the water longer than the set cut-off time at each point along the Swim Course are required to leave the water and will be recorded as "did not finish". It is the responsibility of the support boat skipper to ensure the swimmer leaves the water. Failure to leave the water at this time will result in disqualification. Race Officials will monitor adherence to the cut-off times at each location.
+          </p>
+
+          <div class="overflow-x-auto mb-6">
+            <table class="table table-zebra w-full">
+              <thead>
+                <tr class="bg-tropical-teal text-white">
+                  <th class="text-base">Distance</th>
+                  <th class="text-base">Cut-off Time (after flag off)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="font-semibold">10 km</td>
+                  <td>5 hours</td>
+                </tr>
+                <tr>
+                  <td class="font-semibold">16 km</td>
+                  <td>7 hours 30 minutes</td>
+                </tr>
+                <tr>
+                  <td class="font-semibold">16 km - 12km Checkpoint (Tanjung Basi)</td>
+                  <td>5 hours 30 minutes</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3 class="font-bold text-lg text-tropical-teal mb-3">Safety Measures</h3>
+          <div class="space-y-3 text-sm">
+            <p>The event is patrolled with governmental rescue teams and professional safety personnel to ensure the wellbeing of all participants:</p>
+            <ul class="space-y-2 list-disc list-inside ml-4">
+              <li><strong>APM (Agensi Penguatkuasaan Maritim Malaysia)</strong> - Malaysian Maritime Enforcement Agency</li>
+              <li><strong>Bomba</strong> - Fire and Rescue Department of Malaysia</li>
+              <li><strong>Life-saving Academy Team</strong> - Certified lifeguards and water safety professionals</li>
+              <li><strong>Medical Team</strong> - Qualified medical personnel on-site and on-water</li>
+              <li><strong>Support Boats</strong> - Each swimmer/team assigned dedicated support boat with trained crew</li>
+              <li><strong>Communication Systems</strong> - Radio communication between all boats and event officials</li>
+              <li><strong>Emergency Protocols</strong> - Established procedures for rapid response to any incidents</li>
+            </ul>
+          </div>
+
+          <div class="alert alert-warning mt-6">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
+            </svg>
+            <div>
+              <h4 class="font-bold">Important Safety Reminder</h4>
+              <p class="text-sm">All swimmers must comply with instructions from Event officials, medical staff, and safety personnel at all times. Your safety is our top priority.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Privacy Policy -->
       <div class="card bg-gradient-to-br from-mint-leaf/10 to-light-green/10 shadow-xl mb-8" id="privacy-policy">
         <div class="card-body">

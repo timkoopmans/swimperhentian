@@ -23,7 +23,7 @@
         <li><a href="#schedule">Schedule</a></li>
         <li><a href="#accommodation">Accommodation</a></li>
         <li><a href="#travel">Travel</a></li>
-        <li><a href="#safety">Safety</a></li>
+        <li><a href="/terms.html#safety">Safety</a></li>
       </ul>
     </div>
     <a class="btn btn-ghost text-xl font-bold text-baltic-blue flex items-center gap-2" href="#home">
@@ -40,7 +40,7 @@
       <li><a href="#schedule">Schedule</a></li>
       <li><a href="#accommodation">Accommodation</a></li>
       <li><a href="#travel">Travel</a></li>
-      <li><a href="#safety">Safety</a></li>
+      <li><a href="/terms.html#safety">Safety</a></li>
     </ul>
   </div>
   <div class="navbar-end">
@@ -815,9 +815,11 @@
       <span class="hidden sm:inline text-gray-400">•</span>
       <a href="/#register" class="link link-hover text-sm md:text-base">Contact</a>
       <span class="hidden sm:inline text-gray-400">•</span>
+      <a href="/terms.html#safety" class="link link-hover text-sm md:text-base">Safety</a>
+      <span class="hidden sm:inline text-gray-400">•</span>
       <a href="/terms.html" class="link link-hover text-sm md:text-base">Terms & Conditions</a>
       <span class="hidden sm:inline text-gray-400">•</span>
-      <a href="/terms.html" class="link link-hover text-sm md:text-base">Privacy Policy</a>
+      <a href="/terms.html#privacy-policy" class="link link-hover text-sm md:text-base">Privacy Policy</a>
     </div>
   </div>
   <div class="w-full max-w-4xl">
