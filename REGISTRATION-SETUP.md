@@ -40,11 +40,6 @@ Here are the recommended fields for the swim event:
   - 16 km Relay - Duo (2 swimmers)
   - 16 km Relay - Team (4 swimmers)
   - 10 km Solo
-  - 4 km Solo
-  - 1.5 km Solo
-  - 500 m Solo (13+ years)
-  - 500 m Sea Angel (10-12 years)
-  - 250 m Sea Angel (7-9 years)
 
 **For Relay Teams (Conditional):**
 - Team Name (Short answer, show if relay selected)

@@ -7,7 +7,7 @@ Official website for Malaysia's Premier Open-Water Swimming Event.
 
 ## About
 
-The Perhentian Island Challenge features distances ranging from 250m to 16km, catering to elite marathon swimmers, relay teams, and newcomers alike. Swim alongside coral reefs, tropical fish, and crystal-clear lagoons in pristine tropical waters.
+The Perhentian Island Challenge is Malaysia's premier open-water swimming event, featuring the challenging 16km full island circumnavigation and the 10km one-way swim. Swim alongside coral reefs, tropical fish, and crystal-clear lagoons in pristine tropical waters.
 
 ## Tech Stack
 

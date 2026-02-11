@@ -1,6 +1,5 @@
 <script lang="ts">
   import Auth from './lib/Auth.svelte';
-  import RegistrationForm from './lib/RegistrationForm.svelte';
   import Gallery from './lib/Gallery.svelte';
 
   let currentSchedule = '16km';
@@ -49,7 +48,7 @@
     </ul>
   </div>
   <div class="navbar-end">
-    <a href="#registration-form" class="btn bg-baltic-blue hover:bg-[#1a4460] text-white border-none shadow-none">Register Now</a>
+    <a href="/register.html" class="btn bg-baltic-blue hover:bg-[#1a4460] text-white border-none shadow-none">Register Now</a>
   </div>
 </div>
 
@@ -75,13 +74,13 @@
       </p>
       <div class="flex flex-wrap gap-4 justify-center mb-12">
         <a href="#categories" class="btn btn-lg bg-white hover:bg-gray-100 text-baltic-blue border-none shadow-none font-semibold">View Categories</a>
-        <a href="#registration-form" class="btn btn-lg bg-baltic-blue hover:bg-[#1a4460] text-white border-none shadow-none">Register Now</a>
+        <a href="/register.html" class="btn btn-lg bg-baltic-blue hover:bg-[#1a4460] text-white border-none shadow-none">Register Now</a>
       </div>
       <div class="stats stats-vertical lg:stats-horizontal shadow-2xl bg-white/90">
         <div class="stat">
           <div class="stat-title text-gray-600">Distance Options</div>
-          <div class="stat-value text-baltic-blue">250m - 16km</div>
-          <div class="stat-desc text-gray-600">For all skill levels</div>
+          <div class="stat-value text-baltic-blue">10km - 16km</div>
+          <div class="stat-desc text-gray-600">Elite open-water swimming</div>
         </div>
         <div class="stat">
           <div class="stat-title text-gray-600">Water Temp</div>
@@ -117,10 +116,10 @@
       </div>
       <div class="card bg-base-200 shadow-xl">
         <div class="card-body">
-          <h3 class="card-title text-2xl text-mint-leaf">🏆 For Everyone</h3>
+          <h3 class="card-title text-2xl text-mint-leaf">🏆 Elite Open-Water Challenge</h3>
           <p class="text-lg leading-relaxed">
-            With distances ranging from the 16 km solo island marathon to the 250 m fun swims,
-            it caters to elite marathon swimmers, relay teams, and newcomers alike. Safety,
+            Featuring the challenging 16 km full island circumnavigation and the 10 km one-way swim,
+            this event caters to serious open-water swimmers and relay teams. Safety,
             logistics, and hospitality are all carefully managed.
           </p>
         </div>
@@ -137,7 +136,7 @@
     </h2>
     <p class="text-center text-lg mb-12 text-gray-600">Choose your challenge</p>
 
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+    <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
       <!-- 16 KM Category -->
       <div class="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
         <div class="card-body">
@@ -153,7 +152,7 @@
             <li>✓ Age: Solo 18+, Relay 14+</li>
           </ul>
           <div class="card-actions justify-end mt-4">
-            <a href="#registration-form" class="btn bg-baltic-blue hover:bg-[#1a4460] text-white border-none btn-block">Register</a>
+            <a href="/register.html" class="btn bg-baltic-blue hover:bg-[#1a4460] text-white border-none btn-block">Register</a>
           </div>
         </div>
       </div>
@@ -173,83 +172,7 @@
             <li>✓ Age: 18+</li>
           </ul>
           <div class="card-actions justify-end mt-4">
-            <a href="#registration-form" class="btn bg-[#E91E8C] hover:bg-[#d11a7d] text-white border-none btn-block">Register</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- 4 KM Category -->
-      <div class="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-        <div class="card-body">
-          <div class="badge badge-lg bg-tropical-teal text-white border-none">INTERMEDIATE</div>
-          <h3 class="card-title text-3xl mt-2">4 km</h3>
-          <p class="text-sm text-gray-500">Solo</p>
-          <div class="divider"></div>
-          <ul class="space-y-2 text-sm">
-            <li>✓ PIR to Turtle Beach - return</li>
-            <li>✓ Flag-off: 8:45 AM</li>
-            <li>✓ Age: 13+</li>
-            <li>✓ Great for first-timers</li>
-          </ul>
-          <div class="card-actions justify-end mt-4">
-            <a href="#registration-form" class="btn bg-tropical-teal hover:bg-[#2d8a8c] text-white border-none btn-block">Register</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- 1.5 KM Category -->
-      <div class="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-        <div class="card-body">
-          <div class="badge badge-lg bg-[#00B4D8] text-white border-none">FUN SWIM</div>
-          <h3 class="card-title text-3xl mt-2">1.5 km</h3>
-          <p class="text-sm text-gray-500">Solo (13+ years)</p>
-          <div class="divider"></div>
-          <ul class="space-y-2 text-sm">
-            <li>✓ Near Teluk Pauh Beach</li>
-            <li>✓ Flag-off: 8:45 AM</li>
-            <li>✓ Calm waters</li>
-            <li>✓ Ideal for beginners</li>
-          </ul>
-          <div class="card-actions justify-end mt-4">
-            <a href="#registration-form" class="btn bg-[#00B4D8] hover:bg-[#0096b8] text-white border-none btn-block">Register</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- 500M Category -->
-      <div class="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-        <div class="card-body">
-          <div class="badge badge-lg bg-mint-leaf text-white border-none">FUN SWIM</div>
-          <h3 class="card-title text-3xl mt-2">500 m</h3>
-          <p class="text-sm text-gray-500">Sea Angel (10-12) & Solo (13+)</p>
-          <div class="divider"></div>
-          <ul class="space-y-2 text-sm">
-            <li>✓ Near Teluk Pauh Beach</li>
-            <li>✓ Flag-off: 11:00/11:30 AM</li>
-            <li>✓ Calm, safe waters</li>
-            <li>✓ Perfect for youth</li>
-          </ul>
-          <div class="card-actions justify-end mt-4">
-            <a href="#registration-form" class="btn bg-mint-leaf hover:bg-[#45b080] text-white border-none btn-block">Register</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- 250M Category -->
-      <div class="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-        <div class="card-body">
-          <div class="badge badge-lg bg-[#FFA500] text-black border-none font-semibold">SEA ANGEL</div>
-          <h3 class="card-title text-3xl mt-2">250 m</h3>
-          <p class="text-sm text-gray-500">Sea Angel (7-9 years)</p>
-          <div class="divider"></div>
-          <ul class="space-y-2 text-sm">
-            <li>✓ Near Teluk Pauh Beach</li>
-            <li>✓ Flag-off: 11:00 AM</li>
-            <li>✓ Very calm waters</li>
-            <li>✓ Young swimmers welcome</li>
-          </ul>
-          <div class="card-actions justify-end mt-4">
-            <a href="#registration-form" class="btn bg-[#FFA500] hover:bg-[#e69500] text-black border-none btn-block font-semibold">Register</a>
+            <a href="/register.html" class="btn bg-[#E91E8C] hover:bg-[#d11a7d] text-white border-none btn-block">Register</a>
           </div>
         </div>
       </div>
@@ -270,7 +193,7 @@
       Join swimmers from around the world for an unforgettable open-water experience in paradise
     </p>
     <div class="flex flex-wrap gap-4 justify-center mb-8">
-      <a href="#registration-form" class="btn btn-lg bg-white hover:bg-gray-100 text-baltic-blue border-none font-semibold px-8 shadow-none">Register Now</a>
+      <a href="/register.html" class="btn btn-lg bg-white hover:bg-gray-100 text-baltic-blue border-none font-semibold px-8 shadow-none">Register Now</a>
       <button class="btn btn-lg btn-outline text-white border-white hover:bg-white hover:text-baltic-blue font-semibold px-8 shadow-none">Download Info Pack</button>
     </div>
     <div class="text-lg">
@@ -279,8 +202,6 @@
   </div>
 </section>
 
-<!-- Registration Form -->
-<RegistrationForm />
 
 <!-- Footer -->
 <footer class="footer footer-center p-6 md:p-10 bg-base-200 text-base-content">
