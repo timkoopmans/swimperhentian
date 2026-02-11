@@ -11,6 +11,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         register: resolve(__dirname, 'register.html'),
+        terms: resolve(__dirname, 'terms.html'),
       },
     },
   },

@@ -50,11 +50,9 @@
       <span class="hidden sm:inline text-gray-400">•</span>
       <a href="/#register" class="link link-hover text-sm md:text-base">Contact</a>
       <span class="hidden sm:inline text-gray-400">•</span>
-      <!-- svelte-ignore a11y_invalid_attribute -->
-      <a href="#" class="link link-hover text-sm md:text-base">Terms & Conditions</a>
+      <a href="/terms.html" class="link link-hover text-sm md:text-base">Terms & Conditions</a>
       <span class="hidden sm:inline text-gray-400">•</span>
-      <!-- svelte-ignore a11y_invalid_attribute -->
-      <a href="#" class="link link-hover text-sm md:text-base">Privacy Policy</a>
+      <a href="/terms.html#cancellation" class="link link-hover text-sm md:text-base">Privacy Policy</a>
     </div>
   </div>
   <div class="w-full max-w-4xl">
