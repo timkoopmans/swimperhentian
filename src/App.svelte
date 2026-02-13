@@ -495,7 +495,7 @@
           <div class="card-body items-center text-center">
             <div class="text-4xl mb-2">🍽️</div>
             <h4 class="card-title text-lg">All-Inclusive Dining</h4>
-            <p class="text-sm">Bayu Restaurant with bottomless drinks</p>
+            <p class="text-sm">Bayu Restaurant</p>
           </div>
         </div>
 
@@ -511,7 +511,7 @@
           <div class="card-body items-center text-center">
             <div class="text-4xl mb-2">🤿</div>
             <h4 class="card-title text-lg">Water Activities</h4>
-            <p class="text-sm">Snorkeling, kayaking, paddleboarding included</p>
+            <p class="text-sm">Snorkeling, kayaking included</p>
           </div>
         </div>
       </div>
@@ -524,19 +524,19 @@
             <div>
               <h4 class="font-bold text-lg mb-3">Accommodation:</h4>
               <ul class="space-y-2">
-                <li>✓ Serenity Suites or Family Pool View Villas</li>
+                <li>✓ Pool View Villa</li>
                 <li>✓ Rooftop balcony with sun loungers</li>
-                <li>✓ Minibar, Wi-Fi, reef-safe toiletries</li>
+                <li>✓ Wi-Fi, reef-safe toiletries</li>
                 <li>✓ Scheduled boat transfers from Kuala Besut</li>
               </ul>
             </div>
             <div>
               <h4 class="font-bold text-lg mb-3">Activities & Amenities:</h4>
               <ul class="space-y-2">
-                <li>✓ All meals and bottomless drinks</li>
-                <li>✓ Unlimited snorkeling trips with gear</li>
+                <li>✓ Breakfast and dinner</li>
+                <li>✓ Snorkeling trip with gear</li>
                 <li>✓ Sunset cruise with canapés & cocktails</li>
-                <li>✓ Access to kayaks, paddleboards & more</li>
+                <li>✓ Access to kayaks & more</li>
               </ul>
             </div>
           </div>
