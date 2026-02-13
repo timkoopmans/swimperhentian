@@ -1,8 +1,6 @@
 <script lang="ts">
-  import Auth from './lib/Auth.svelte';
 </script>
 
-<Auth>
 <!-- Navigation -->
 <div class="navbar bg-base-100 shadow-lg fixed top-0 z-50">
   <div class="navbar-start">
@@ -455,4 +453,3 @@
     <p class="text-xs md:text-sm text-center">Copyright © 2026 - All rights reserved by Swim Perhentian</p>
   </div>
 </footer>
-</Auth>
