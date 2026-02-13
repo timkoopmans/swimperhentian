@@ -651,15 +651,8 @@
                 <h3 class="card-title text-2xl mb-3 text-mint-leaf">Transfer to Kuala Besut Jetty</h3>
                 <p class="text-base mb-3">
                   From Kota Bharu Airport, travel to Kuala Besut Jetty (approximately 45 minutes - 1 hour drive).
+                  <strong>Airport transfer is included in your package!</strong>
                 </p>
-                <div class="bg-base-100 p-4 rounded-lg">
-                  <p class="font-semibold mb-2">Transport Options:</p>
-                  <ul class="space-y-2 text-sm">
-                    <li><strong>Taxi/Grab:</strong> Most convenient, book at airport or pre-arrange</li>
-                    <li><strong>Private Transfer:</strong> Can be arranged through Alunan Resort</li>
-                    <li><strong>Bus:</strong> Budget option available but less convenient with luggage</li>
-                  </ul>
-                </div>
               </div>
             </div>
           </div>
@@ -786,7 +779,6 @@
     </p>
     <div class="flex flex-wrap gap-4 justify-center mb-8">
       <a href="/register.html" class="btn btn-lg bg-white hover:bg-gray-100 text-baltic-blue border-none font-semibold px-8 shadow-none">Register Now</a>
-      <button class="btn btn-lg btn-outline text-white border-white hover:bg-white hover:text-baltic-blue font-semibold px-8 shadow-none">Download Info Pack</button>
     </div>
     <div class="text-lg">
       <p>Email: <a href="mailto:info@swimperhentian.com" class="underline">info@swimperhentian.com</a></p>
