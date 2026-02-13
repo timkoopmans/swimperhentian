@@ -805,8 +805,6 @@
     <div class="flex flex-wrap items-center justify-center gap-3 md:gap-4">
       <a href="/#about" class="link link-hover text-sm md:text-base">About</a>
       <span class="hidden sm:inline text-gray-400">•</span>
-      <a href="/#register" class="link link-hover text-sm md:text-base">Contact</a>
-      <span class="hidden sm:inline text-gray-400">•</span>
       <a href="/terms.html#safety" class="link link-hover text-sm md:text-base">Safety</a>
       <span class="hidden sm:inline text-gray-400">•</span>
       <a href="/terms.html" class="link link-hover text-sm md:text-base">Terms & Conditions</a>
