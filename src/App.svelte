@@ -218,7 +218,7 @@
             <li>✓ Solo, Duo (2), or Team (4)</li>
             <li>✓ Flag-off: 8:00 AM</li>
             <li>✓ Cut-off: 7h 30min</li>
-            <li>✓ Age: Solo 18+, Relay 14+</li>
+            <li>✓ Age: 18+</li>
           </ul>
           <div class="card-actions justify-end mt-4">
             <a href="/register.html" class="btn bg-baltic-blue hover:bg-[#1a4460] text-white border-none btn-block">Register</a>
