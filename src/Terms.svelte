@@ -67,7 +67,7 @@
             </div>
             <div>
               <h3 class="font-bold text-lg text-tropical-teal">16 KM RELAY - TEAM</h3>
-              <p>4 swimmers swimming custom distances sharing at least one support boat per team, fees payable in full by team captain.</p>
+              <p>4 swimmers swimming custom distances sharing at least 1 support boat per team.</p>
             </div>
             <div>
               <h3 class="font-bold text-lg text-tropical-teal">10 KM SOLO</h3>
@@ -78,7 +78,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
             </svg>
-            <span>Each entry permits participation in the registered category only and is only transferrable in accordance with our Cancellation Policy.</span>
+            <span>Each entry permits participation in the registered category only and is only cancelable in accordance with our Cancellation Policy.</span>
           </div>
         </div>
       </div>
@@ -88,24 +88,22 @@
         <div class="card-body">
           <h2 class="card-title text-2xl text-baltic-blue mb-4">Event Rules - All Participants</h2>
           <ul class="space-y-3 list-none">
-            <li>✓ The minimum age for 16km Solo swimmers at the date of entry is 18 years</li>
-            <li>✓ The minimum age for 16km Relay swimmers at the date of entry is 14 years</li>
-            <li>✓ The minimum age for 10km Solo swimmers at the date of entry is 18 years</li>
+            <li>✓ The minimum age at the date of entry is 18 years</li>
             <li>✓ All swimmers must agree to these Event Rules, the Refund and Cancellation Policy and the Event Waiver</li>
             <li>✓ The Event organiser reserves the right to accept, reject and cancel entries</li>
             <li>✓ Swimmers are permitted to wear any type of swimsuit or wetsuit, although swim categories will apply</li>
+            <li>✓ Swimmers must swim with a tow float at all times</li>
             <li>✓ Swim aids are permitted including snorkel, fins, paddles, but swim categories will be applied. If aids are being used, please nominate "assisted swim" when registering</li>
             <li>✓ All swimmers must wear the official event swim cap provided by the Event organiser</li>
             <li>✓ All swimmers must swim within 10 metres of their support boat at all times</li>
             <li>✓ Swimmers must remain on the Course at all times</li>
             <li>✓ The cut-off times for the 16km Event is 7 hours 30 minutes after the Event start</li>
             <li>✓ The cut-off times for the 10km Event is 5 hours after the Event start</li>
-            <li>✓ The 12km checkpoint at Tanjung Basi has a cut-off time of 5 hours 30 minutes (16km swimmers only)</li>
+            <li>✓ The 12km checkpoint at Tanjung Basi has a cut-off time of 5 hours 30 minutes (16km swimmers only). This is due to ocean current timings</li>
             <li>✓ Swimmers must comply with all directions from Event officials, medical staff and Event volunteers and withdraw from the event when directed to do so</li>
             <li>✓ All swimmers must attend the mandatory Event briefing on Friday, October 2, 2026</li>
             <li>✓ All swimmers must check-in on Event Day at Event Check-in</li>
             <li>✓ No swimmer may proceed on the course without a support boat</li>
-            <li>✓ All Swimmers and teams must have at least one individual as their land support</li>
           </ul>
         </div>
       </div>
@@ -144,7 +142,7 @@
           <h3 class="font-bold text-lg text-tropical-teal mb-2">TEAM (4 Swimmers)</h3>
           <ul class="space-y-2 list-disc list-inside">
             <li>Team swimmers may share a support boat</li>
-            <li>Team changeovers are only permitted at the 3 designated change-over areas</li>
+            <li>Team changeovers are only permitted at designated change-over areas</li>
           </ul>
         </div>
       </div>
@@ -155,7 +153,7 @@
           <h2 class="card-title text-2xl text-baltic-blue mb-4">Support Boats</h2>
           <ul class="space-y-2 list-disc list-inside">
             <li>All support boat crew must wear a lifejacket and carry the mandatory equipment (whistle, radio, course map, swimmer food, mobile phone in waterproof pouch)</li>
-            <li>Support boat crew may only change over at the 3 designated change over areas</li>
+            <li>Support boat crew may only change over at the designated change over areas</li>
             <li>Support boat crew must read and accept the mandatory briefing notes and rules prior to event day</li>
             <li>Support boats are provided by the Event Organiser and assigned to each swimmer/team</li>
           </ul>
@@ -167,7 +165,7 @@
         <div class="card-body">
           <h2 class="card-title text-2xl text-baltic-blue mb-4">Event Results</h2>
           <ul class="space-y-2 list-disc list-inside">
-            <li>This is a timed event, not a race. Full official results will be provided but no individual rankings will be prepared</li>
+            <li>This is a timed event. Full official results will be provided</li>
             <li>Every swimmer who completes their registered category will be awarded with a Finisher medal and certificate</li>
           </ul>
         </div>
@@ -178,7 +176,7 @@
         <div class="card-body">
           <h2 class="card-title text-2xl text-baltic-blue mb-4">Cancellation Conditions</h2>
           <p class="mb-4">The refund and cancellation policy outlined below take into consideration the costs the Event Organiser incurs before the Event takes place.</p>
-          <p class="mb-6">To avoid cancellation and trip change costs if you are traveling to the event, please consider taking out appropriate travel insurance and/or booking only refundable accommodation and travel.</p>
+          <p class="mb-6">To avoid cancellation and trip change costs if you are traveling to the event, you must take out appropriate travel insurance and/or booking only refundable travel.</p>
 
           <h3 class="font-bold text-lg text-tropical-teal mb-3">Cancelled Event</h3>
           <p class="mb-4">The Event Organiser reserves the right to make any change or modification to the Event. This includes cancelling the Event or postponing the Event to a later date. Every effort is made to keep changes to a minimum.</p>
@@ -193,18 +191,9 @@
           <p class="mb-2">Any cancellation must be made in writing by email to the Event Organiser. Cancellations are effective from the date of receipt. An email confirming this will be sent by return. If no email is received by you, please call the Event Organiser for confirmation.</p>
           <ul class="space-y-2 list-disc list-inside mb-4">
             <li>For cancellations made before August 1, 2026, a swimmer will receive a 50% refund returned to payee via same payment method</li>
-            <li>For cancellations made after August 1, 2026, a partial transfer to the following year's event is possible by negotiation with organising committee</li>
             <li>Prior to September 15, 2026, support arrangements must be confirmed, or the swimmer's registration will be cancelled with full loss of entry fee</li>
           </ul>
           <p class="text-sm italic">Note that credit card fees and surcharges charged by third party payment providers will be added to the ticket and will be non-refundable.</p>
-        </div>
-      </div>
-
-      <!-- Transfers -->
-      <div class="card bg-base-200 shadow-xl mb-8" id="transfers">
-        <div class="card-body">
-          <h2 class="card-title text-2xl text-baltic-blue mb-4">Transfers</h2>
-          <p>A swimmer may transfer their entry to another person in the same entry category who fulfills all entry requirements and is approved by the Event Organiser. A swimmer wishing to transfer his/her entry must inform the Event Organiser by email and provide contact and eligibility details for the replacement swimmer. A transfer fee of $75 is payable by replacement swimmer for the successful transfer of the registration.</p>
         </div>
       </div>
 
@@ -467,4 +456,3 @@
   </div>
 </footer>
 </Auth>
-
