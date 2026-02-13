@@ -1,17 +1,26 @@
 <script lang="ts">
   // Gallery images
   const images = [
-    { src: '/gallery/swim-01.jpeg', alt: 'Swim Perhentian Event 1' },
-    { src: '/gallery/swim-02.jpeg', alt: 'Swim Perhentian Event 2' },
-    { src: '/gallery/swim-03.jpeg', alt: 'Swim Perhentian Event 3' },
-    { src: '/gallery/swim-04.jpeg', alt: 'Swim Perhentian Event 4' },
-    { src: '/gallery/swim-05.jpeg', alt: 'Swim Perhentian Event 5' },
-    { src: '/gallery/swim-06.jpeg', alt: 'Swim Perhentian Event 6' },
-    { src: '/gallery/swim-07.jpeg', alt: 'Swim Perhentian Event 7' },
-    { src: '/gallery/swim-08.jpeg', alt: 'Swim Perhentian Event 8' },
-    { src: '/gallery/swim-09.jpeg', alt: 'Swim Perhentian Event 9' },
-    { src: '/gallery/swim-10.jpeg', alt: 'Swim Perhentian Event 10' },
-    { src: '/gallery/swim-11.jpeg', alt: 'Swim Perhentian Event 11' },
+    { src: '/gallery/swim-01.jpeg', alt: 'Swim Perhentian'},
+    { src: '/gallery/swim-02.jpeg', alt: 'Swim Perhentian'},
+    { src: '/gallery/swim-03.jpeg', alt: 'Swim Perhentian'},
+    { src: '/gallery/swim-04.jpeg', alt: 'Swim Perhentian'},
+    { src: '/gallery/swim-05.jpeg', alt: 'Swim Perhentian'},
+    { src: '/gallery/swim-06.jpeg', alt: 'Swim Perhentian'},
+    { src: '/gallery/swim-07.jpeg', alt: 'Swim Perhentian'},
+    { src: '/gallery/swim-08.jpeg', alt: 'Swim Perhentian'},
+    { src: '/gallery/swim-09.jpeg', alt: 'Swim Perhentian'},
+    { src: '/gallery/swim-10.jpeg', alt: 'Swim Perhentian'},
+    { src: '/gallery/swim-11.jpeg', alt: 'Swim Perhentian'},
+    { src: '/gallery/swim-12.jpeg', alt: 'Swim Perhentian'},
+    { src: '/gallery/swim-14.jpeg', alt: 'Swim Perhentian'},
+    { src: '/gallery/swim-15.jpeg', alt: 'Swim Perhentian'},
+    { src: '/gallery/swim-16.jpeg', alt: 'Swim Perhentian'},
+    { src: '/gallery/swim-17.jpeg', alt: 'Swim Perhentian'},
+    { src: '/gallery/swim-18.jpeg', alt: 'Swim Perhentian'},
+    { src: '/gallery/swim-19.jpeg', alt: 'Swim Perhentian'},
+    { src: '/gallery/swim-20.jpeg', alt: 'Swim Perhentian'},
+    { src: '/gallery/swim-21.jpeg', alt: 'Swim Perhentian'},
   ];
 
   let selectedImage: { src: string; alt?: string } | null = null;
