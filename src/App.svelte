@@ -66,7 +66,7 @@
         Malaysia's Premier Open-Water Swimming Event
       </p>
       <p class="text-xl md:text-2xl mb-8 font-semibold">
-        🏝️ October 3, 2026 | <a href="https://www.google.com/maps/place/Pulau+Perhentian+Besar/@5.9029142,102.73505,14z/data=!3m1!4b1!4m6!3m5!1s0x31b6e08bc8a6980b:0x3b84f6f746a0078!8m2!3d5.9037879!4d102.7537372!16s%2Fg%2F1hc25hd3l?entry=ttu&g_ep=EgoyMDI2MDIwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="underline hover:text-light-green transition-colors">Pulau Perhentian Besar</a>
+        October 3, 2026 | <a href="https://www.google.com/maps/place/Pulau+Perhentian+Besar/@5.9029142,102.73505,14z/data=!3m1!4b1!4m6!3m5!1s0x31b6e08bc8a6980b:0x3b84f6f746a0078!8m2!3d5.9037879!4d102.7537372!16s%2Fg%2F1hc25hd3l?entry=ttu&g_ep=EgoyMDI2MDIwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="underline hover:text-light-green transition-colors">Pulau Perhentian Besar</a>
       </p>
       <div class="flex flex-wrap gap-4 justify-center mb-12">
         <a href="#categories" class="btn btn-lg bg-white hover:bg-gray-100 text-baltic-blue border-none shadow-none font-semibold">View Categories</a>
@@ -118,7 +118,7 @@
       <div class="grid md:grid-cols-3 gap-8">
         <div class="card bg-base-200 shadow-xl">
           <div class="card-body">
-            <h3 class="card-title text-2xl text-tropical-teal">🌊 The Experience</h3>
+            <h3 class="card-title text-2xl text-tropical-teal">The Experience</h3>
             <p class="text-lg leading-relaxed">
               The Perhentian Island Challenge is Malaysia's premier open-water swimming event,
               attracting international and local athletes. Swim alongside coral reefs, tropical fish,
@@ -129,7 +129,7 @@
 
         <div class="card bg-base-200 shadow-xl">
           <div class="card-body">
-            <h3 class="card-title text-2xl text-mint-leaf">🏆 Elite Open-Water Challenge</h3>
+            <h3 class="card-title text-2xl text-mint-leaf">Elite Open-Water Challenge</h3>
             <p class="text-lg leading-relaxed">
               Featuring the challenging 16 km full island circumnavigation and the 10 km one-way swim,
               this event caters to serious open-water swimmers and relay teams. Safety,
@@ -140,7 +140,7 @@
 
         <div class="card bg-base-200 shadow-xl">
           <div class="card-body">
-            <h3 class="card-title text-2xl text-baltic-blue">🌴 Beyond Swimming</h3>
+            <h3 class="card-title text-2xl text-baltic-blue">Beyond Swimming</h3>
             <p class="text-lg leading-relaxed">
               When we're not swimming, enjoy snorkelling, exploring nearby islands, swimming with turtles,
               or simply relaxing on a sunset cruise. From Redang Island adventures to beach dinners and recovery days in paradise.
@@ -152,7 +152,7 @@
       <!-- Community & Memories -->
       <div class="card bg-base-200 shadow-xl">
         <div class="card-body">
-          <h3 class="card-title text-2xl text-center justify-center text-baltic-blue mb-4">💫 Community, Challenge & Immersion</h3>
+          <h3 class="card-title text-2xl text-center justify-center text-baltic-blue mb-4">Community, Challenge & Immersion</h3>
           <p class="text-lg leading-relaxed text-center max-w-4xl mx-auto">
             This camp is about community, challenge, and immersion in a truly special location.
             Whether you're racing or simply soaking it all in, the Perhentian Islands promise warm waters,
@@ -167,7 +167,7 @@
       <!-- Contact Information -->
       <div class="card bg-gradient-to-r from-baltic-blue to-tropical-teal text-white shadow-xl">
         <div class="card-body">
-          <h3 class="card-title text-2xl justify-center mb-6">📞 Get In Touch</h3>
+          <h3 class="card-title text-2xl justify-center mb-6">Get In Touch</h3>
           <p class="text-center text-lg mb-6">
             <strong>Booking opens soon!</strong> For more information or to express interest, please contact:
           </p>
@@ -363,7 +363,7 @@
               <div class="badge badge-lg bg-[#E91E8C] text-white border-none font-semibold min-w-[140px] text-base">SAT OCT 3</div>
               <div class="flex-1">
                 <h3 class="card-title text-2xl mb-3 flex items-center gap-2">
-                  🏆 Race Day
+                  Race Day
                 </h3>
                 <ul class="space-y-2 text-base">
                   <li>✓ Early start / race prep</li>
@@ -519,7 +519,7 @@
       <!-- Package Inclusions -->
       <div class="card bg-gradient-to-r from-baltic-blue to-tropical-teal text-white shadow-xl">
         <div class="card-body">
-          <h3 class="card-title text-2xl md:text-3xl justify-center mb-6">✨ Package Inclusions</h3>
+          <h3 class="card-title text-2xl md:text-3xl justify-center mb-6">Package Inclusions</h3>
           <div class="grid md:grid-cols-2 gap-6">
             <div>
               <h4 class="font-bold text-lg mb-3">Accommodation:</h4>
@@ -601,7 +601,7 @@
             <div class="flex items-start gap-4">
               <div class="badge badge-lg bg-baltic-blue text-white border-none font-bold text-xl min-w-[50px] h-[50px] flex items-center justify-center">1</div>
               <div class="flex-1">
-                <h3 class="card-title text-2xl mb-3 text-baltic-blue">✈️ Fly to Kuala Lumpur (KUL)</h3>
+                <h3 class="card-title text-2xl mb-3 text-baltic-blue">Fly to Kuala Lumpur (KUL)</h3>
                 <p class="text-base mb-3">
                   Most international travelers arrive at Kuala Lumpur International Airport (KLIA).
                   From major Australian cities, direct flights are available with Malaysia Airlines, AirAsia, and other carriers.
@@ -609,9 +609,9 @@
                 <div class="bg-base-100 p-4 rounded-lg">
                   <p class="font-semibold mb-2">Flight Options from Melbourne:</p>
                   <ul class="space-y-2 text-sm">
-                    <li>🇲🇾 <strong>Malaysia Airlines</strong> - Direct flights departing 11:30 PM, arriving KL ~6:00 AM (overnight)</li>
-                    <li>🇸🇬 <strong>Singapore Airlines</strong> - Via Singapore (option to break journey in Singapore)</li>
-                    <li>💡 Day flights are also available from Melbourne to KL</li>
+                    <li><strong>Malaysia Airlines</strong> - Direct flights departing 11:30 PM, arriving KL ~6:00 AM (overnight)</li>
+                    <li><strong>Singapore Airlines</strong> - Via Singapore (option to break journey in Singapore)</li>
+                    <li>Day flights are also available from Melbourne to KL</li>
                   </ul>
                 </div>
               </div>
@@ -625,16 +625,16 @@
             <div class="flex items-start gap-4">
               <div class="badge badge-lg bg-tropical-teal text-white border-none font-bold text-xl min-w-[50px] h-[50px] flex items-center justify-center">2</div>
               <div class="flex-1">
-                <h3 class="card-title text-2xl mb-3 text-tropical-teal">🛫 Connect to Kota Bharu (KBR)</h3>
+                <h3 class="card-title text-2xl mb-3 text-tropical-teal">Connect to Kota Bharu (KBR)</h3>
                 <p class="text-base mb-3">
                   From Kuala Lumpur, take a domestic flight to Sultan Ismail Petra Airport (Kota Bharu).
                   This is the closest airport to the Perhentian Islands, approximately 45 minutes drive from Kuala Besut Jetty.
                 </p>
                 <div class="bg-base-100 p-4 rounded-lg">
                   <ul class="space-y-2 text-sm">
-                    <li>⏱️ <strong>Flight Duration:</strong> ~1 hour from KL to Kota Bharu</li>
-                    <li>🕒 <strong>Recommended Connection:</strong> Allow 2+ hours layover in KL</li>
-                    <li>📍 <strong>Example:</strong> KL departure 8:00 AM → Kota Bharu arrival 9:30 AM</li>
+                    <li><strong>Flight Duration:</strong> ~1 hour from KL to Kota Bharu</li>
+                    <li><strong>Recommended Connection:</strong> Allow 2+ hours layover in KL</li>
+                    <li><strong>Example:</strong> KL departure 8:00 AM → Kota Bharu arrival 9:30 AM</li>
                   </ul>
                 </div>
               </div>
@@ -648,16 +648,16 @@
             <div class="flex items-start gap-4">
               <div class="badge badge-lg bg-mint-leaf text-white border-none font-bold text-xl min-w-[50px] h-[50px] flex items-center justify-center">3</div>
               <div class="flex-1">
-                <h3 class="card-title text-2xl mb-3 text-mint-leaf">🚗 Transfer to Kuala Besut Jetty</h3>
+                <h3 class="card-title text-2xl mb-3 text-mint-leaf">Transfer to Kuala Besut Jetty</h3>
                 <p class="text-base mb-3">
                   From Kota Bharu Airport, travel to Kuala Besut Jetty (approximately 45 minutes - 1 hour drive).
                 </p>
                 <div class="bg-base-100 p-4 rounded-lg">
                   <p class="font-semibold mb-2">Transport Options:</p>
                   <ul class="space-y-2 text-sm">
-                    <li>🚖 <strong>Taxi/Grab:</strong> Most convenient, book at airport or pre-arrange</li>
-                    <li>🚐 <strong>Private Transfer:</strong> Can be arranged through Alunan Resort</li>
-                    <li>🚌 <strong>Bus:</strong> Budget option available but less convenient with luggage</li>
+                    <li><strong>Taxi/Grab:</strong> Most convenient, book at airport or pre-arrange</li>
+                    <li><strong>Private Transfer:</strong> Can be arranged through Alunan Resort</li>
+                    <li><strong>Bus:</strong> Budget option available but less convenient with luggage</li>
                   </ul>
                 </div>
               </div>
@@ -671,18 +671,18 @@
             <div class="flex items-start gap-4">
               <div class="badge badge-lg bg-[#E91E8C] text-white border-none font-bold text-xl min-w-[50px] h-[50px] flex items-center justify-center">4</div>
               <div class="flex-1">
-                <h3 class="card-title text-2xl mb-3" style="color: #E91E8C;">⛵ Boat to Perhentian Islands</h3>
+                <h3 class="card-title text-2xl mb-3" style="color: #E91E8C;">Boat to Perhentian Islands</h3>
                 <p class="text-base mb-3">
                   Scheduled boat transfers operate daily from Kuala Besut Jetty to the Perhentian Islands.
                   <strong>Alunan Resort includes boat transfers in your package!</strong>
                 </p>
                 <div class="bg-base-100 p-4 rounded-lg">
                   <ul class="space-y-2 text-sm">
-                    <li>⛴️ <strong>Boat Schedule:</strong> Departures from 8:00 AM - 4:30 PM</li>
-                    <li>🏝️ <strong>Journey Time:</strong> ~30-45 minutes</li>
-                    <li>🔙 <strong>Return Boats:</strong> 8:00 AM, 12:00 PM, 4:00 PM from the island</li>
-                    <li>✅ <strong>Included:</strong> Scheduled transfers included in your swim camp package</li>
-                    <li>⚠️ <strong>Note:</strong> Weather dependent - monsoon season (Nov-Feb) may affect schedules</li>
+                    <li><strong>Boat Schedule:</strong> Departures from 8:00 AM - 4:30 PM</li>
+                    <li><strong>Journey Time:</strong> ~30-45 minutes</li>
+                    <li><strong>Return Boats:</strong> 8:00 AM, 12:00 PM, 4:00 PM from the island</li>
+                    <li><strong>Included:</strong> Scheduled transfers included in your swim camp package</li>
+                    <li><strong>Note:</strong> Weather dependent - monsoon season (Nov-Feb) may affect schedules</li>
                   </ul>
                 </div>
               </div>
@@ -695,11 +695,11 @@
       <!-- Recommended Timing -->
       <div class="card bg-gradient-to-r from-baltic-blue to-tropical-teal text-white shadow-xl">
         <div class="card-body">
-          <h3 class="card-title text-2xl md:text-3xl justify-center mb-6">📅 Recommended Travel Times</h3>
+          <h3 class="card-title text-2xl md:text-3xl justify-center mb-6">Recommended Travel Times</h3>
           <div class="grid md:grid-cols-2 gap-8">
             <div>
               <h4 class="font-bold text-xl mb-4 flex items-center gap-2">
-                <span>🛬</span> Arrival
+                <span>Arrival</span>
               </h4>
               <ul class="space-y-3 text-base">
                 <li><strong>Recommended Arrival:</strong> Monday, September 28, 2026</li>
@@ -710,7 +710,7 @@
             </div>
             <div>
               <h4 class="font-bold text-xl mb-4 flex items-center gap-2">
-                <span>🛫</span> Departure
+                <span>Departure</span>
               </h4>
               <ul class="space-y-3 text-base">
                 <li><strong>Departure Day:</strong> Monday, October 5, 2026 (after lunch)</li>
@@ -731,7 +731,7 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
             </svg>
             <div>
-              <h3 class="font-bold">💼 Packing Tips</h3>
+              <h3 class="font-bold">Packing Tips</h3>
               <p class="text-sm mt-2">Keep essentials in carry-on. Boats have limited luggage space. Pack reef-safe sunscreen, swimwear, and light clothing.</p>
             </div>
           </div>
@@ -743,7 +743,7 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
             </svg>
             <div>
-              <h3 class="font-bold">⚠️ Weather Considerations</h3>
+              <h3 class="font-bold">Weather Considerations</h3>
               <p class="text-sm mt-2">October is ideal for swimming. Boat schedules depend on weather. Always allow buffer time for your return journey.</p>
             </div>
           </div>
@@ -789,7 +789,7 @@
       <button class="btn btn-lg btn-outline text-white border-white hover:bg-white hover:text-baltic-blue font-semibold px-8 shadow-none">Download Info Pack</button>
     </div>
     <div class="text-lg">
-      <p>📧 Email: <a href="mailto:info@swimperhentian.com" class="underline">info@swimperhentian.com</a></p>
+      <p>Email: <a href="mailto:info@swimperhentian.com" class="underline">info@swimperhentian.com</a></p>
     </div>
   </div>
 </section>
