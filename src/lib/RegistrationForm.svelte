@@ -27,7 +27,7 @@
           <h4 class="font-bold text-xl mb-3 text-center">Payment Terms</h4>
           <div class="space-y-2 text-base">
             <p><strong>Deposit:</strong> A$500 non-refundable deposit required to secure your spot</p>
-            <p><strong>Balance Due:</strong> Invoice for remainder will be due on 1st July 2026</p>
+            <p><strong>Balance Due:</strong> Invoice for 50% will be due on 30 April 2026 with remainder due 1 July 2026</p>
           </div>
         </div>
       </div>
